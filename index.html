@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Group Financial Dashboard</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f3f6fb;--card:#fff;--tx:#14213d;--mu:#5b677a;--bd:#dde3ee;--ac:#2f6fed;--ac2:#f59e0b;--g:#1a7f4b;--r:#c0392b;color-scheme:light}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1624;--card:#18223a;--tx:#e8eefb;--mu:#9aa8c2;--bd:#2a3654;--ac:#5b8cff;--ac2:#fbbf24;--g:#3ecf8e;--r:#ff6b5e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1624;--card:#18223a;--tx:#e8eefb;--mu:#9aa8c2;--bd:#2a3654;--ac:#5b8cff;--ac2:#fbbf24;--g:#3ecf8e;--r:#ff6b5e;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.45 -apple-system,"Segoe UI",Arial,sans-serif;padding:16px;max-width:1100px;margin:auto}
+h1{font-size:20px;margin:0}h2{font-size:14px;margin:0 0 10px;color:var(--mu);text-transform:uppercase;letter-spacing:.04em}
+.sub{color:var(--mu);font-size:12px;margin:2px 0 12px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.chip{border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:99px;padding:6px 14px;cursor:pointer;font:inherit}
+.chip.on{background:var(--ac);border-color:var(--ac);color:#fff}
+.grid{display:grid;gap:12px;margin-bottom:12px}.k4{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}.c2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;min-width:0}
+.big{font-size:24px;font-weight:700}.lab{color:var(--mu);font-size:12px}.up{color:var(--g)}.dn{color:var(--r)}
+svg{width:100%;height:auto;display:block}.sl{display:grid;grid-template-columns:110px 1fr 56px;gap:8px;align-items:center;margin:8px 0}
+input[type=range]{width:100%}table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:6px 4px;text-align:right;border-bottom:1px solid var(--bd)}th:first-child,td:first-child{text-align:left}th{color:var(--mu);font-weight:600}
+.hm{display:grid;grid-template-columns:44px repeat(5,1fr);gap:3px;font-size:11px;text-align:center}.hm div{padding:7px 2px;border-radius:5px}
+.ins li{margin-bottom:6px}.scroll{overflow-x:auto}
+</style></head><body>
+<h1>Group Financial Dashboard</h1>
+<div class="sub">4 companies standardised to USD · Jan 2025–Sep 2026 · synthetic data</div>
+<div class="chips" id="chips"></div>
+<div class="grid k4" id="kpis"></div>
+<div class="grid c2">
+ <div class="card"><h2>Monthly revenue &amp; EBITDA</h2><svg id="ch" viewBox="0 0 640 230" role="img" aria-label="Monthly revenue bars and EBITDA line"></svg></div>
+ <div class="card"><h2>Company comparison</h2><div class="scroll"><table id="tb"></table></div></div>
+</div>
+<div class="card" style="margin-bottom:12px"><h2>Ask the dashboard</h2>
+ <div style="display:flex;gap:8px;flex-wrap:wrap"><input id="q" type="text" placeholder="Try: What if COGS rises 5% at Kessler?" style="flex:1 1 260px;padding:9px 12px;border:1px solid var(--bd);border-radius:8px;background:var(--bg);color:var(--tx);font:inherit"><button class="chip on" id="qb">Apply</button></div>
+ <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:8px" id="qex"></div>
+ <div class="lab" id="qout" style="margin-top:8px">Type a what-if or a company name. Claude reads the sentence when available; otherwise a built-in keyword parser is used.</div></div>
+<div class="card" style="margin-bottom:12px"><h2>Scenario lab (full period)</h2>
+ <div class="grid c2" style="margin:0">
+  <div>
+   <div class="sl"><span>Price change</span><input type="range" id="p" min="-10" max="10" step="0.5" value="0"><b id="pv">0%</b></div>
+   <div class="sl"><span>COGS change</span><input type="range" id="c" min="-10" max="20" step="0.5" value="0"><b id="cv">0%</b></div>
+   <div class="sl"><span>Volume change</span><input type="range" id="v" min="-20" max="20" step="1" value="0"><b id="vv">0%</b></div>
+   <div class="lab">Volume reacts to price through each company’s elasticity (retail −1.4, manufacturing −0.7, SaaS −1.0, food −1.8). These are placeholder assumptions.</div>
+   <div id="sres" style="margin-top:10px"></div>
+  </div>
+  <div><div class="lab" style="margin-bottom:6px">EBITDA change ($M): price (across) × COGS (down)</div><div class="hm" id="hm"></div></div>
+ </div></div>
+<div class="grid c2">
+ <div class="card"><h2>Weakest vendors (on-time delivery)</h2><div class="scroll"><table id="vt"></table></div></div>
+ <div class="card"><h2>Key findings</h2><ul class="ins" style="margin:0;padding-left:18px">
+  <li><b>Growth is strong, profit is thin.</b> Group revenue is up about 12% year to date (Jan–Sep 2026 vs 2025), but EBITDA margin is only 4.7% overall.</li>
+  <li><b>Solstice (SaaS) is the growth and turnaround story:</b> revenue +21.5%, EBITDA margin moved from −2.2% to +9.4%.</li>
+  <li><b>Kessler (food) is the risk:</b> 19.9% gross margin, 1.9% EBITDA margin, and cash turned negative by Sep 2026.</li>
+  <li><b>Margin squeeze at Helix:</b> unit costs rose faster than prices, so gross margin slipped from 31.4% to 29.9%.</li>
+  <li><b>Budgets were too optimistic:</b> every company missed budget revenue by 2–4% and EBITDA by 28–58%.</li>
+  <li><b>Costs matter more than price in the scenarios:</b> a 5% COGS rise costs more EBITDA than a 1% price rise adds, especially at Kessler.</li></ul></div>
+</div>
+<script>
+const D={"months":["Jan 25","Feb 25","Mar 25","Apr 25","May 25","Jun 25","Jul 25","Aug 25","Sep 25","Oct 25","Nov 25","Dec 25","Jan 26","Feb 26","Mar 26","Apr 26","May 26","Jun 26","Jul 26","Aug 26","Sep 26"],"co":{"C1":{"name":"Northbridge","el":-1.4,"rev":[1085793,1159127,1202093,1320178,1406021,1422278,1432515,1378177,1276540,1236958,1180484,1187898,1181986,1280687,1361973,1452535,1511341,1567966,1568671,1487194,1448372],"cogs":[596962,634326,665235,729265,789383,782501,804105,770753,712548,695554,659142,662091,665531,716416,759605,810850,854315,885323,881996,850278,807900],"opex":[469458,464669,469814,466485,467555,477240,468178,473220,472645,479452,475532,486443,484290,484265,483064,482740,496337,483098,485577,484311,494401],"cash":[2417955,2388059,2376952,2374401,2371126,2412817,2471280,2448448,2460960,2471164,2435841,2353710,2285129,2262839,2246571,2206775,2260770,2366309,2457489,2465870,2438567]},"C2":{"name":"Helix","el":-0.7,"rev":[1869359,1937002,1989637,2051252,2054215,2075997,2111932,2126732,2029170,2053571,1965917,1996574,2023171,2084156,2137532,2198853,2251763,2317338,2322728,2273912,2220709],"cogs":[1255357,1319364,1383506,1409061,1422621,1436181,1444660,1461472,1390229,1423129,1358257,1388682,1386254,1438250,1484275,1544751,1582424,1635012,1650586,1617722,1568545],"opex":[479305,489435,480335,482064,484606,484757,493286,479602,496118,483320,486181,503578,495494,497172,492948,500873,514163,515046,513369,523466,515583],"cash":[2259891,2156929,2037046,2063014,1966160,1916962,1865259,1788117,1727965,1696302,1643202,1601878,1494587,1487515,1417630,1343807,1292666,1338029,1297166,1186358,1136337]},"C3":{"name":"Solstice","el":-1.0,"rev":[2097897,2175078,2284293,2296223,2365434,2376184,2467462,2434702,2418113,2471854,2375881,2514989,2475663,2498161,2799269,2794035,2921503,2968665,3017314,2981488,2952893],"cogs":[615287,634629,657454,668456,692935,684760,711557,711656,704207,706898,685901,724800,729318,734230,815093,797571,839705,852565,874588,857380,857083],"opex":[1667970,1708907,1678113,1684768,1724834,1720658,1698213,1714168,1696824,1717697,1715269,1717765,1718932,1765148,1732334,1748018,1724220,1725112,1753734,1730384,1756697],"cash":[2842361,2500558,2400593,2203873,2022349,1911832,1777941,1759974,1637689,1535976,1422809,1478697,1444749,1367670,1511437,1635128,1667750,1787895,2014837,2198598,2303820]},"C4":{"name":"Kessler","el":-1.8,"rev":[2386470,2402681,2490530,2670641,2660771,2719664,2740058,2750812,2611471,2553629,2551532,2538219,2452725,2605594,2728680,2840329,2874667,2870741,2914450,2854688,2901366],"cogs":[1899354,1917877,1970964,2114155,2115653,2158357,2188715,2188974,2080121,2033450,2051435,2057101,1968805,2111941,2210487,2258438,2303960,2313873,2354440,2334557,2299336],"opex":[455378,451202,461848,475864,473498,477283,477448,472430,473783,480783,475327,478446,480148,484672,499346,494318,498554,491879,499341,495626,507858],"cash":[869635,834550,864706,922530,794434,801066,652213,613585,546941,408398,363934,244994,72605,-74168,-126293,-202015,-244884,-287077,-356601,-526540,-512565]}},"vend":[{"v":"TransEuropa Freight","c":"Kessler","s":3.54,"o":80.3,"d":4.5},{"v":"Euro Hydraulics GmbH","c":"Helix","s":5.55,"o":81.9,"d":4.0},{"v":"Metro Logistics","c":"Northbridge","s":2.8,"o":83.8,"d":3.5},{"v":"FrostChain","c":"Kessler","s":6.88,"o":85.1,"d":3.1},{"v":"Contractor Pool","c":"Solstice","s":3.91,"o":86.5,"d":3.1}]};
+const $=i=>document.getElementById(i),S=a=>a.reduce((x,y)=>x+y,0);
+let sel="ALL";const ids=()=>sel==="ALL"?Object.keys(D.co):[sel];
+const M=v=>(v<0?"−":"")+"$"+(Math.abs(v)/1e6).toFixed(1)+"M",P=v=>(v*100).toFixed(1)+"%";
+const arr=k=>{const o=D.months.map(()=>0);ids().forEach(c=>D.co[c][k].forEach((v,i)=>o[i]+=v));return o};
+const tot=(c,a,b)=>{const o=D.co[c],s=(k)=>S(o[k].slice(a,b));return{R:s("rev"),C:s("cogs"),O:s("opex")}};
+function scn(c,dp,dc,dv){const o=D.co[c],u=(1+o.el*dp/100)*(1+dv/100),R=S(o.rev)*(1+dp/100)*u,C=S(o.cogs)*u*(1+dc/100),O=S(o.opex);return{R,C,O,E:R-C-O}}
+function scnAll(dp,dc,dv){const r={R:0,C:0,O:0,E:0};ids().forEach(c=>{const x=scn(c,dp,dc,dv);for(const k in r)r[k]+=x[k]});return r}
+function render(){
+ const R=arr("rev"),C=arr("cogs"),O=arr("opex"),E=R.map((r,i)=>r-C[i]-O[i]),cash=arr("cash"),n=R.length;
+ const rv=S(R),gm=(rv-S(C))/rv,eb=S(E),em=eb/rv,y25=S(R.slice(0,9)),y26=S(R.slice(12)),gr=y26/y25-1;
+ const kp=(l,v,s,c)=>`<div class="card"><div class="lab">${l}</div><div class="big ${c||""}">${v}</div><div class="lab">${s}</div></div>`;
+ $("kpis").innerHTML=kp("Revenue",M(rv),"21 months")+kp("Gross margin",P(gm),M(rv-S(C))+" gross profit")+kp("EBITDA",M(eb),P(em)+" margin",eb<0?"dn":"")+kp("Revenue growth",(gr>=0?"+":"")+P(gr),"YTD Sep 26 vs Sep 25",gr>=0?"up":"dn")+kp("Closing cash",M(cash[n-1]),"Sep 2026",cash[n-1]<0?"dn":"");
+ // chart
+ const W=640,H=230,l=8,b=24,t=10,bw=(W-l*2)/n,mx=Math.max(...R)*1.1,ex=Math.max(...E.map(Math.abs))*1.1||1;
+ let s="";R.forEach((r,i)=>{const h=r/mx*(H-b-t);s+=`<rect x="${l+i*bw+2}" y="${H-b-h}" width="${bw-4}" height="${h}" rx="2" fill="var(--ac)" opacity=".85"/>`;if(i%3==0)s+=`<text x="${l+i*bw+bw/2}" y="${H-8}" font-size="10" text-anchor="middle" fill="var(--mu)">${D.months[i]}</text>`});
+ const pts=E.map((e,i)=>`${l+i*bw+bw/2},${H-b-(e/ex*.5+.1)*(H-b-t)}`).join(" ");
+ s+=`<polyline points="${pts}" fill="none" stroke="var(--ac2)" stroke-width="2.5"/><text x="${W-6}" y="14" font-size="10" text-anchor="end" fill="var(--mu)">bars = revenue · line = EBITDA</text>`;$("ch").innerHTML=s;
+ // table
+ let h="<tr><th>Company</th><th>Rev</th><th>GM</th><th>EBITDA</th><th>YoY</th></tr>";
+ Object.keys(D.co).forEach(c=>{const a=tot(c,0,21),y=tot(c,12,21),z=tot(c,0,9),e=a.R-a.C-a.O,g=y.R/z.R-1;h+=`<tr style="${sel===c?"font-weight:700":""}"><td>${D.co[c].name}</td><td>${M(a.R)}</td><td>${P((a.R-a.C)/a.R)}</td><td class="${e<0?"dn":""}">${P(e/a.R)}</td><td class="up">+${P(g)}</td></tr>`});$("tb").innerHTML=h;
+ // scenario
+ const dp=+$("p").value,dc=+$("c").value,dv=+$("v").value;$("pv").textContent=dp+"%";$("cv").textContent=dc+"%";$("vv").textContent=dv+"%";
+ const b0=scnAll(0,0,0),x=scnAll(dp,dc,dv),d=x.E-b0.E,row=(a,b,c)=>`<tr><td>${a}</td><td>${b}</td><td class="${c||""}">${c==="x"?"":""}</td></tr>`;
+ $("sres").innerHTML=`<table><tr><th></th><th>Base</th><th>Scenario</th></tr><tr><td>Revenue</td><td>${M(b0.R)}</td><td>${M(x.R)}</td></tr><tr><td>Gross profit</td><td>${M(b0.R-b0.C)}</td><td>${M(x.R-x.C)}</td></tr><tr><td>EBITDA</td><td>${M(b0.E)}</td><td><b>${M(x.E)}</b></td></tr><tr><td>EBITDA margin</td><td>${P(b0.E/b0.R)}</td><td>${P(x.E/x.R)}</td></tr><tr><td>Δ EBITDA</td><td></td><td class="${d>=0?"up":"dn"}"><b>${d>=0?"+":""}${M(d)}</b></td></tr></table>`;
+ // heatmap
+ const pc=[-10,-5,0,5,10],cc=[-5,0,5,10,15];let m=`<div></div>`+pc.map(v=>`<div class="lab">${v>0?"+":""}${v}%</div>`).join("");
+ const cells=cc.map(c=>pc.map(p=>scnAll(p,c,dv).E-b0.E)),mm=Math.max(...cells.flat().map(Math.abs))||1;
+ cc.forEach((c,i)=>{m+=`<div class="lab">${c>0?"+":""}${c}%</div>`;cells[i].forEach(v=>{const a=Math.min(.75,Math.abs(v)/mm*.75+.08);m+=`<div style="background:${v>=0?`rgba(46,170,110,${a})`:`rgba(220,70,55,${a})`};color:var(--tx)">${(v/1e6).toFixed(1)}</div>`})});$("hm").innerHTML=m;
+}
+$("chips").innerHTML=["ALL",...Object.keys(D.co)].map(c=>`<button class="chip" data-c="${c}">${c==="ALL"?"All companies":D.co[c].name}</button>`).join("");
+$("chips").onclick=e=>{const c=e.target.dataset.c;if(!c)return;sel=c;[...$("chips").children].forEach(x=>x.classList.toggle("on",x.dataset.c===sel));render()};
+$("chips").children[0].classList.add("on");["p","c","v"].forEach(i=>$(i).oninput=render);
+const ALIAS={C1:/northbridge|retail/,C2:/helix|manufactur/,C3:/solstice|saas|software/,C4:/kessler|food/};
+const num=x=>typeof x==="number"&&isFinite(x)?x:null;
+function ruleParse(t){t=t.toLowerCase().replace(/−/g,"-");const r={p:null,c:null,v:null,co:null,reset:/\b(reset|clear|default)\b/.test(t)};
+ for(const k in ALIAS)if(ALIAS[k].test(t))r.co=k;if(!r.co&&/\b(all|group|portfolio)\b/.test(t))r.co="ALL";
+ const keys={c:/cogs|cost of goods|cost of sales|costs?\b/,p:/pric(e|es|ing)/,v:/volume|units|demand/};
+ t.split(/,|;|\band\b|\bbut\b|&/).forEach(cl=>{const m=cl.match(/(-?\d+(?:\.\d+)?)\s*(%|percent)?/);if(!m)return;let lv=null;for(const k in keys)if(keys[k].test(cl)){lv=k;break}if(!lv)return;
+  const n=Math.abs(parseFloat(m[1])),neg=parseFloat(m[1])<0||/\b(fall|falls|fell|drop|drops|cut|cuts|decrease|decreases|reduce|reduces|lower|lowers|down|decline|declines|shrink|shrinks)\b/.test(cl);r[lv]=neg?-n:n});return r}
+let smp;async function getSample(){if(smp!==undefined)return smp;try{smp=window.claude&&claude.use?await claude.use("sample"):null}catch(e){smp=null}return smp}
+const NAMES={p:"Price",c:"COGS",v:"Volume"};
+function apply(r,src){const said=[];let clamped=false;
+ if(r.reset){["p","c","v"].forEach(i=>$(i).value=0);sel="ALL";said.push("reset everything")}
+ ["p","c","v"].forEach(i=>{if(r[i]!=null){const el=$(i),v=Math.max(+el.min,Math.min(+el.max,r[i]));if(v!==r[i])clamped=true;el.value=v;said.push(NAMES[i]+" "+(v>0?"+":"")+v+"%")}});
+ if(r.co){sel=r.co;said.push(r.co==="ALL"?"all companies":D.co[r.co].name)}
+ if(!said.length){$("qout").textContent="I could not find a company or a lever (price, COGS, volume) with a number. Try one of the examples.";return}
+ [...$("chips").children].forEach(x=>x.classList.toggle("on",x.dataset.c===sel));render();
+ $("qout").innerHTML="Applied via "+src+": <b>"+said.join(" · ")+"</b>"+(clamped?" (limited to the slider range)":"")+". Scroll down to the scenario lab."}
+async function ask(){const t=$("q").value.trim();if(!t)return;$("qout").textContent="Reading your question…";let r=null,src="built-in parser";const s=await getSample();
+ if(s){try{const j=await s.json("Convert a finance dashboard request into JSON. Companies: C1 Northbridge (retail), C2 Helix (manufacturing), C3 Solstice (SaaS), C4 Kessler (food), or ALL. Return ONLY JSON: {\"co\":\"ALL\"|\"C1\"|\"C2\"|\"C3\"|\"C4\"|null,\"p\":number|null,\"c\":number|null,\"v\":number|null,\"reset\":boolean}. p=price change percent, c=COGS change percent, v=volume change percent; decreases are negative; null if not mentioned.\nRequest: "+t);
+  if(j&&typeof j==="object")r={p:num(j.p),c:num(j.c),v:num(j.v),co:["ALL","C1","C2","C3","C4"].includes(j.co)?j.co:null,reset:!!j.reset},src="Claude"}catch(e){}}
+ apply(r||ruleParse(t),r?src:"built-in parser")}
+$("qb").onclick=ask;$("q").onkeydown=e=>{if(e.key==="Enter")ask()};
+["What if COGS rises 5%?","Raise prices 3% and volume drops 2% at Kessler","COGS up 8% for Helix","Show Solstice","Reset"].forEach(x=>{const b=document.createElement("button");b.className="chip";b.textContent=x;b.onclick=()=>{$("q").value=x;ask()};$("qex").appendChild(b)});
+$("vt").innerHTML="<tr><th>Vendor</th><th>Company</th><th>Spend</th><th>On-time</th><th>Defects</th></tr>"+D.vend.map(v=>`<tr><td>${v.v}</td><td>${v.c}</td><td>$${v.s}M</td><td class="dn">${v.o}%</td><td>${v.d}%</td></tr>`).join("");
+render();
+</script></body></html>
