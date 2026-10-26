@@ -1,0 +1,17 @@
+company_id,product_key,product,price_elasticity
+C1,C1|Apparel,Apparel,-1.4
+C1,C1|Footwear,Footwear,-1.4
+C1,C1|Accessories,Accessories,-1.4
+C1,C1|Home & Living,Home & Living,-1.4
+C2,C2|Industrial Valves,Industrial Valves,-0.7
+C2,C2|Pump Assemblies,Pump Assemblies,-0.7
+C2,C2|Seals & Gaskets,Seals & Gaskets,-0.7
+C2,C2|Spare Parts Kits,Spare Parts Kits,-0.7
+C3,C3|Starter,Starter,-1.0
+C3,C3|Professional,Professional,-1.0
+C3,C3|Enterprise,Enterprise,-1.0
+C3,C3|Implementation Services,Implementation Services,-1.0
+C4,C4|Fresh Produce,Fresh Produce,-1.8
+C4,C4|Dry Goods,Dry Goods,-1.8
+C4,C4|Beverages,Beverages,-1.8
+C4,C4|Frozen,Frozen,-1.8

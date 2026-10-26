@@ -1,0 +1,424 @@
+Period,Ver,AcctNo,AcctName,NetAmount
+202501,A,4000,Product Sales  ,-1471125.22
+202501,A,5000,Materials & Direct Labour  ,987925.91
+202501,A,6100,Salaries  ,178225.69
+202501,A,6200,Factory Rent  ,49359.41
+202501,A,6300,Sales & Marketing  ,32549.83
+202501,A,6400,Energy  ,50695.29
+202501,A,6500,Admin & Other  ,66367.68
+202501,A,7000,Depreciation  ,60000.0
+202501,A,7100,Bank Interest  ,30000.0
+202501,A,7200,Corporation Tax  ,4000.35
+202501,B,4000,Product Sales  ,-1499011.18
+202501,B,5000,Materials & Direct Labour  ,943920.4
+202501,B,6100,Salaries  ,179593.48
+202501,B,6200,Factory Rent  ,48254.82
+202501,B,6300,Sales & Marketing  ,31162.16
+202501,B,6400,Energy  ,49072.97
+202501,B,6500,Admin & Other  ,71066.69
+202501,B,7000,Depreciation  ,60000.0
+202501,B,7000,Depreciation  ,60000.0
+202501,B,7100,Bank Interest  ,30000.0
+202501,B,7200,Corporation Tax  ,21485.17
+202502,A,4000,Product Sales  ,-1523878.35
+202502,A,5000,Materials & Direct Labour  ,1037970.48
+202502,A,6100,Salaries  ,186111.52
+202502,A,6200,Factory Rent  ,48869.09
+202502,A,6300,Sales & Marketing  ,31711.79
+202502,A,6400,Energy  ,50692.21
+202502,A,6500,Admin & Other  ,67664.1
+202502,A,7000,Depreciation  ,60000.0
+202502,A,7100,Bank Interest  ,30000.0
+202502,A,7200,Corporation Tax  ,2714.79
+202502,B,4000,Product Sales  ,-1503957.94
+202502,B,5000,Materials & Direct Labour  ,1040976.18
+202502,B,6100,Salaries  ,190925.67
+202502,B,6200,Factory Rent  ,50211.47
+202502,B,6300,Sales & Marketing  ,29628.2
+202502,B,6400,Energy  ,50165.43
+202502,B,6500,Admin & Other  ,65029.58
+202502,B,7000,Depreciation  ,60000.0
+202502,B,7100,Bank Interest  ,30000.0
+202502,B,7200,Corporation Tax  ,0.0
+202503,A,4000,Product Sales  ,-1582845.99
+202503,A,5000,Materials & Direct Labour  ,1100640.82
+202503,A,6100,Salaries  ,182410.29
+202503,A,6200,Factory Rent  ,49525.16
+202503,A,6300,Sales & Marketing  ,32846.65
+202503,A,6400,Energy  ,50423.8
+202503,A,6500,Admin & Other  ,66922.5
+202503,A,7000,Depreciation  ,60000.0
+202503,A,7100,Bank Interest  ,30000.0
+202503,A,7200,Corporation Tax  ,2519.19
+202503,B,4000,Product Sales  ,-1623069.55
+202503,B,5000,Materials & Direct Labour  ,1072184.99
+202503,B,6100,Salaries  ,182623.47
+202503,B,6200,Factory Rent  ,49594.74
+202503,B,6300,Sales & Marketing  ,32270.18
+202503,B,6400,Energy  ,51789.01
+202503,B,6500,Admin & Other  ,62530.58
+202503,B,7000,Depreciation  ,60000.0
+202503,B,7100,Bank Interest  ,30000.0
+202503,B,7200,Corporation Tax  ,20519.15
+202504,A,4000,Product Sales  ,-1636680.72
+202504,A,5000,Materials & Direct Labour  ,1124280.92
+202504,A,6100,Salaries  ,182048.81
+202504,A,6200,Factory Rent  ,51576.37
+202504,A,6300,Sales & Marketing  ,33160.73
+202504,A,6400,Energy  ,51759.79
+202504,A,6500,Admin & Other  ,66090.11
+202504,A,7000,Depreciation  ,60000.0
+202504,A,7100,Bank Interest  ,30000.0
+202504,A,7200,Corporation Tax  ,9441.0
+202504,B,4000,Product Sales  ,-1745468.02
+202504,B,5000,Materials & Direct Labour  ,1120681.74
+202504,B,6100,Salaries  ,189211.25
+202504,B,6200,Factory Rent  ,54567.04
+202504,B,6300,Sales & Marketing  ,34849.23
+202504,B,6400,Energy  ,53140.69
+202504,B,6500,Admin & Other  ,63786.01
+202504,B,7000,Depreciation  ,60000.0
+202504,B,7100,Bank Interest  ,30000.0
+202504,B,7200,Corporation Tax  ,34808.02
+202505,A,4000,Product Sales  ,-1650104.62
+202505,A,5000,Materials & Direct Labour  ,1142759.13
+202505,A,6100,Salaries  ,187683.65
+202505,A,6200,Factory Rent  ,48874.47
+202505,A,6300,Sales & Marketing  ,34031.46
+202505,A,6400,Energy  ,50157.21
+202505,A,6500,Admin & Other  ,68526.55
+202505,A,7000,Depreciation  ,60000.0
+202505,A,7100,Bank Interest  ,30000.0
+202505,A,7200,Corporation Tax  ,7018.04
+202505,B,4000,Product Sales  ,-1656312.53
+202505,B,5000,Materials & Direct Labour  ,1119049.25
+202505,B,6100,Salaries  ,183736.31
+202505,B,6200,Factory Rent  ,46814.16
+202505,B,6300,Sales & Marketing  ,33388.61
+202505,B,6400,Energy  ,47916.89
+202505,B,6500,Admin & Other  ,66533.44
+202505,B,7000,Depreciation  ,60000.0
+202505,B,7100,Bank Interest  ,30000.0
+202505,B,7200,Corporation Tax  ,17218.46
+202506,A,4000,Product Sales  ,-1660398.73
+202506,A,5000,Materials & Direct Labour  ,1148668.93
+202506,A,6100,Salaries  ,184635.73
+202506,A,6200,Factory Rent  ,52475.8
+202506,A,6300,Sales & Marketing  ,34554.7
+202506,A,6400,Energy  ,50104.11
+202506,A,6500,Admin & Other  ,65941.88
+202506,A,7000,Depreciation  ,60000.0
+202506,A,7100,Bank Interest  ,30000.0
+202506,A,7200,Corporation Tax  ,8504.4
+202506,B,4000,Product Sales  ,-1644899.97
+202506,B,5000,Materials & Direct Labour  ,1135323.8
+202506,B,6100,Salaries  ,178166.85
+202506,B,6200,Factory Rent  ,55571.54
+202506,B,6300,Sales & Marketing  ,32783.24
+202506,B,6400,Energy  ,49460.16
+202506,B,6500,Admin & Other  ,65636.82
+202506,B,7000,Depreciation  ,60000.0
+202506,B,7100,Bank Interest  ,30000.0
+202506,B,7200,Corporation Tax  ,9489.39
+202507,A,4000,Product Sales  ,-1679602.48
+202507,A,5000,Materials & Direct Labour  ,1148926.24
+202507,A,6100,Salaries  ,191412.72
+202507,A,6200,Factory Rent  ,50566.14
+202507,A,6300,Sales & Marketing  ,33968.0
+202507,A,6400,Energy  ,49648.09
+202507,A,6500,Admin & Other  ,66711.14
+202507,A,7000,Depreciation  ,60000.0
+202507,A,7100,Bank Interest  ,30000.0
+202507,A,7200,Corporation Tax  ,12092.54
+202507,B,4000,Product Sales  ,-1721461.31
+202507,B,5000,Materials & Direct Labour  ,1136811.08
+202507,B,6100,Salaries  ,200742.96
+202507,B,6200,Factory Rent  ,49811.96
+202507,B,6300,Sales & Marketing  ,32296.94
+202507,B,6400,Energy  ,50826.6
+202507,B,6500,Admin & Other  ,68377.38
+202507,B,7000,Depreciation  ,60000.0
+202507,B,7100,Bank Interest  ,30000.0
+202507,B,7200,Corporation Tax  ,23148.59
+202508,A,4000,Product Sales  ,-1687882.62
+202508,A,5000,Materials & Direct Labour  ,1159898.44
+202508,A,6100,Salaries  ,181558.53
+202508,A,6200,Factory Rent  ,49706.39
+202508,A,6300,Sales & Marketing  ,32820.15
+202508,A,6400,Energy  ,50371.69
+202508,A,6500,Admin & Other  ,66179.86
+202508,A,7000,Depreciation  ,60000.0
+202508,A,7100,Bank Interest  ,30000.0
+202508,A,7200,Corporation Tax  ,14336.89
+202508,B,4000,Product Sales  ,-1663721.4
+202508,B,5000,Materials & Direct Labour  ,1104481.2
+202508,B,6100,Salaries  ,194006.21
+202508,B,6200,Factory Rent  ,49064.06
+202508,B,6300,Sales & Marketing  ,31751.77
+202508,B,6400,Energy  ,49084.47
+202508,B,6500,Admin & Other  ,67523.78
+202508,B,7000,Depreciation  ,60000.0
+202508,B,7100,Bank Interest  ,30000.0
+202508,B,7200,Corporation Tax  ,19452.48
+202509,A,4000,Product Sales  ,-1619448.96
+202509,A,5000,Materials & Direct Labour  ,1109519.98
+202509,A,6100,Salaries  ,192670.45
+202509,A,6200,Factory Rent  ,50256.74
+202509,A,6300,Sales & Marketing  ,33277.84
+202509,A,6400,Energy  ,52232.21
+202509,A,6400,Energy  ,52232.21
+202509,A,6500,Admin & Other  ,67507.12
+202509,A,7000,Depreciation  ,60000.0
+202509,A,7100,Bank Interest  ,30000.0
+202509,A,7200,Corporation Tax  ,5996.15
+202509,B,4000,Product Sales  ,-1667893.2
+202509,B,5000,Materials & Direct Labour  ,1104599.86
+202509,B,6100,Salaries  ,196878.02
+202509,B,6200,Factory Rent  ,48226.07
+202509,B,6300,Sales & Marketing  ,34275.94
+202509,B,6400,Energy  ,53169.93
+202509,B,6500,Admin & Other  ,61694.49
+202509,B,7000,Depreciation  ,60000.0
+202509,B,7100,Bank Interest  ,30000.0
+202509,B,7200,Corporation Tax  ,19762.22
+202510,A,4000,Product Sales  ,-1634878.73
+202510,A,5000,Materials & Direct Labour  ,1132974.58
+202510,A,6100,Salaries  ,179140.97
+202510,A,6200,Factory Rent  ,51456.84
+202510,A,6300,Sales & Marketing  ,34497.16
+202510,A,6400,Energy  ,51735.14
+202510,A,6500,Admin & Other  ,67948.05
+202510,A,7000,Depreciation  ,60000.0
+202510,A,7100,Bank Interest  ,30000.0
+202510,A,7200,Corporation Tax  ,6781.5
+202510,B,4000,Product Sales  ,-1634106.77
+202510,B,5000,Materials & Direct Labour  ,1130990.03
+202510,B,6100,Salaries  ,180020.39
+202510,B,6200,Factory Rent  ,52584.5
+202510,B,6300,Sales & Marketing  ,35758.19
+202510,B,6400,Energy  ,52676.3
+202510,B,6500,Admin & Other  ,65921.53
+202510,B,7000,Depreciation  ,60000.0
+202510,B,7100,Bank Interest  ,30000.0
+202510,B,7200,Corporation Tax  ,6538.96
+202511,A,4000,Product Sales  ,-1557902.2
+202511,A,5000,Materials & Direct Labour  ,1076358.28
+202511,A,6100,Salaries  ,181146.46
+202511,A,6200,Factory Rent  ,50718.41
+202511,A,6300,Sales & Marketing  ,33989.68
+202511,A,6400,Energy  ,48901.03
+202511,A,6500,Admin & Other  ,70521.28
+202511,A,7000,Depreciation  ,60000.0
+202511,A,7100,Bank Interest  ,30000.0
+202511,A,7200,Corporation Tax  ,1566.77
+202511,B,4000,Product Sales  ,-1613453.93
+202511,B,5000,Materials & Direct Labour  ,1035907.88
+202511,B,6100,Salaries  ,190940.54
+202511,B,6200,Factory Rent  ,52522.31
+202511,B,6300,Sales & Marketing  ,30697.31
+202511,B,6400,Energy  ,47841.86
+202511,B,6500,Admin & Other  ,68196.13
+202511,B,7000,Depreciation  ,60000.0
+202511,B,7100,Bank Interest  ,30000.0
+202511,B,7200,Corporation Tax  ,24336.98
+202512,A,4000,Product Sales  ,-1575455.09
+202512,A,5000,Materials & Direct Labour  ,1095780.27
+202512,A,6100,Salaries  ,192023.95
+202512,A,6200,Factory Rent  ,52908.07
+202512,A,6300,Sales & Marketing  ,33343.35
+202512,A,6400,Energy  ,50356.88
+202512,A,6500,Admin & Other  ,68730.43
+202512,A,7000,Depreciation  ,60000.0
+202512,A,7100,Bank Interest  ,30000.0
+202512,A,7200,Corporation Tax  ,0.0
+202512,B,4000,Product Sales  ,-1635285.9
+202512,B,5000,Materials & Direct Labour  ,1038608.78
+202512,B,6100,Salaries  ,180919.22
+202512,B,6200,Factory Rent  ,53781.88
+202512,B,6300,Sales & Marketing  ,33837.22
+202512,B,6400,Energy  ,49332.5
+202512,B,6500,Admin & Other  ,67318.88
+202512,B,7000,Depreciation  ,60000.0
+202512,B,7100,Bank Interest  ,30000.0
+202512,B,7200,Corporation Tax  ,30371.85
+202601,A,4000,Product Sales  ,-1591794.91
+202601,A,5000,Materials & Direct Labour  ,1090679.41
+202601,A,6100,Salaries  ,182041.0
+202601,A,6200,Factory Rent  ,52290.34
+202601,A,6300,Sales & Marketing  ,34521.29
+202601,A,6400,Energy  ,51703.92
+202601,A,6500,Admin & Other  ,69289.39
+202601,A,7000,Depreciation  ,60000.0
+202601,A,7100,Bank Interest  ,30000.0
+202601,A,7200,Corporation Tax  ,5317.39
+202601,B,4000,Product Sales  ,-1626437.54
+202601,B,5000,Materials & Direct Labour  ,1024371.06
+202601,B,6100,Salaries  ,184890.24
+202601,B,6200,Factory Rent  ,51844.81
+202601,B,6300,Sales & Marketing  ,34631.13
+202601,B,6400,Energy  ,50800.89
+202601,B,6500,Admin & Other  ,67772.33
+202601,B,7000,Depreciation  ,60000.0
+202601,B,7100,Bank Interest  ,30000.0
+202601,B,7200,Corporation Tax  ,30531.77
+202602,A,4000,Product Sales  ,-1648727.03
+202602,A,5000,Materials & Direct Labour  ,1137766.08
+202602,A,6100,Salaries  ,184780.67
+202602,A,6200,Factory Rent  ,50399.29
+202602,A,6300,Sales & Marketing  ,35047.76
+202602,A,6400,Energy  ,52091.16
+202602,A,6500,Admin & Other  ,70982.35
+202602,A,7000,Depreciation  ,60000.0
+202602,A,7100,Bank Interest  ,30000.0
+202602,A,7200,Corporation Tax  ,6914.93
+202602,B,4000,Product Sales  ,-1655268.99
+202602,B,5000,Materials & Direct Labour  ,1123668.01
+202602,B,6100,Salaries  ,176973.58
+202602,B,6200,Factory Rent  ,52817.21
+202602,B,6300,Sales & Marketing  ,32665.1
+202602,B,6400,Energy  ,52721.39
+202602,B,6500,Admin & Other  ,74301.78
+202602,B,7000,Depreciation  ,60000.0
+202602,B,7100,Bank Interest  ,30000.0
+202602,B,7200,Corporation Tax  ,13030.49
+202603,A,4000,Product Sales  ,-1689081.34
+202603,A,5000,Materials & Direct Labour  ,1172876.02
+202603,A,6100,Salaries  ,186855.34
+202603,A,6200,Factory Rent  ,49525.8
+202603,A,6300,Sales & Marketing  ,34119.0
+202603,A,6400,Energy  ,52175.09
+202603,A,6500,Admin & Other  ,66852.83
+202603,A,7000,Depreciation  ,60000.0
+202603,A,7100,Bank Interest  ,30000.0
+202603,A,7200,Corporation Tax  ,9169.32
+202603,B,4000,Product Sales  ,-1812285.83
+202603,B,5000,Materials & Direct Labour  ,1212092.44
+202603,B,6100,Salaries  ,190094.93
+202603,B,6200,Factory Rent  ,47730.6
+202603,B,6300,Sales & Marketing  ,33788.79
+202603,B,6400,Energy  ,52626.55
+202603,B,6500,Admin & Other  ,68376.34
+202603,B,7000,Depreciation  ,60000.0
+202603,B,7100,Bank Interest  ,30000.0
+202603,B,7200,Corporation Tax  ,29394.04
+202604,A,4000,Product Sales  ,-1727028.61
+202604,A,5000,Materials & Direct Labour  ,1213282.62
+202604,A,6100,Salaries  ,187048.81
+202604,A,6200,Factory Rent  ,50671.34
+202604,A,6300,Sales & Marketing  ,34369.46
+202604,A,6400,Energy  ,51980.26
+202604,A,6500,Admin & Other  ,69326.82
+202604,A,7000,Depreciation  ,60000.0
+202604,A,7100,Bank Interest  ,30000.0
+202604,A,7200,Corporation Tax  ,7587.33
+202604,B,4000,Product Sales  ,-1828483.56
+202604,B,5000,Materials & Direct Labour  ,1186721.4
+202604,B,6100,Salaries  ,187103.53
+202604,B,6200,Factory Rent  ,47174.93
+202604,B,6300,Sales & Marketing  ,33192.0
+202604,B,6400,Energy  ,51124.34
+202604,B,6500,Admin & Other  ,62798.97
+202604,B,7000,Depreciation  ,60000.0
+202604,B,7100,Bank Interest  ,30000.0
+202604,B,7200,Corporation Tax  ,42592.1
+202605,A,4000,Product Sales  ,-1769140.9
+202605,A,5000,Materials & Direct Labour  ,1243262.45
+202605,A,6100,Salaries  ,194884.79
+202605,A,6200,Factory Rent  ,52110.37
+202605,A,6300,Sales & Marketing  ,33501.67
+202605,A,6400,Energy  ,51640.38
+202605,A,6500,Admin & Other  ,71824.53
+202605,A,7000,Depreciation  ,60000.0
+202605,A,7100,Bank Interest  ,30000.0
+202605,A,7200,Corporation Tax  ,7979.18
+202605,B,4000,Product Sales  ,-1696521.32
+202605,B,5000,Materials & Direct Labour  ,1231339.21
+202605,B,6100,Salaries  ,187394.47
+202605,B,6200,Factory Rent  ,51361.86
+202605,B,6300,Sales & Marketing  ,32606.37
+202605,B,6400,Energy  ,49409.4
+202605,B,6500,Admin & Other  ,64431.69
+202605,B,7000,Depreciation  ,60000.0
+202605,B,7100,Bank Interest  ,30000.0
+202605,B,7200,Corporation Tax  ,0.0
+202606,A,4000,Product Sales  ,-1798477.27
+202606,A,5000,Materials & Direct Labour  ,1268926.7
+202606,A,6100,Salaries  ,191411.06
+202606,A,6200,Factory Rent  ,53515.44
+202606,A,6300,Sales & Marketing  ,34316.11
+202606,A,6400,Energy  ,52138.58
+202606,A,6500,Admin & Other  ,68344.04
+202606,A,7000,Depreciation  ,60000.0
+202606,A,7100,Bank Interest  ,30000.0
+202606,A,7200,Corporation Tax  ,9956.34
+202606,B,4000,Product Sales  ,-1797032.78
+202606,B,5000,Materials & Direct Labour  ,1319340.07
+202606,B,6100,Salaries  ,184237.39
+202606,B,6200,Factory Rent  ,53799.48
+202606,B,6300,Sales & Marketing  ,36430.99
+202606,B,6400,Energy  ,52439.3
+202606,B,6500,Admin & Other  ,67088.84
+202606,B,7000,Depreciation  ,60000.0
+202606,B,7100,Bank Interest  ,30000.0
+202606,B,7200,Corporation Tax  ,0.0
+202607,A,4000,Product Sales  ,-1820462.81
+202607,A,5000,Materials & Direct Labour  ,1293664.33
+202607,A,6100,Salaries  ,191236.61
+202607,A,6200,Factory Rent  ,53268.91
+202607,A,6300,Sales & Marketing  ,34379.25
+202607,A,6400,Energy  ,53284.27
+202607,A,6500,Admin & Other  ,70189.52
+202607,A,7000,Depreciation  ,60000.0
+202607,A,7100,Bank Interest  ,30000.0
+202607,A,7200,Corporation Tax  ,8609.98
+202607,B,4000,Product Sales  ,-1750848.76
+202607,B,5000,Materials & Direct Labour  ,1302666.64
+202607,B,6100,Salaries  ,188934.43
+202607,B,6200,Factory Rent  ,51995.36
+202607,B,6300,Sales & Marketing  ,33921.8
+202607,B,6400,Energy  ,54189.95
+202607,B,6500,Admin & Other  ,66649.5
+202607,B,7000,Depreciation  ,60000.0
+202607,B,7100,Bank Interest  ,30000.0
+202607,B,7100,Bank Interest  ,30000.0
+202607,B,7200,Corporation Tax  ,0.0
+202608,A,4000,Product Sales  ,-1773722.34
+202608,A,5000,Materials & Direct Labour  ,1261873.9
+202608,A,6100,Salaries  ,194887.04
+202608,A,6200,Factory Rent  ,52937.21
+202608,A,6300,Sales & Marketing  ,35614.57
+202608,A,6400,Energy  ,55142.72
+202608,A,6500,Admin & Other  ,69738.08
+202608,A,7000,Depreciation  ,60000.0
+202608,A,7100,Bank Interest  ,30000.0
+202608,A,7200,Corporation Tax  ,3382.21
+202608,B,4000,Product Sales  ,-1809764.26
+202608,B,5000,Materials & Direct Labour  ,1200010.75
+202608,B,6100,Salaries  ,204524.65
+202608,B,6200,Factory Rent  ,51655.05
+202608,B,6300,Sales & Marketing  ,36166.45
+202608,B,6400,Energy  ,52307.17
+202608,B,6500,Admin & Other  ,68327.91
+202608,B,7000,Depreciation  ,60000.0
+202608,B,7100,Bank Interest  ,30000.0
+202608,B,7200,Corporation Tax  ,26693.07
+202609,A,4000,Product Sales  ,-1736556.66
+202609,A,5000,Materials & Direct Labour  ,1226576.03
+202609,A,6100,Salaries  ,190551.63
+202609,A,6200,Factory Rent  ,53815.12
+202609,A,6300,Sales & Marketing  ,36239.82
+202609,A,6400,Energy  ,50946.77
+202609,A,6500,Admin & Other  ,71623.69
+202609,A,7000,Depreciation  ,60000.0
+202609,A,7100,Bank Interest  ,30000.0
+202609,A,7200,Corporation Tax  ,4200.9
+202609,B,4000,Product Sales  ,-1805395.27
+202609,B,5000,Materials & Direct Labour  ,1223319.23
+202609,B,6100,Salaries  ,191069.36
+202609,B,6200,Factory Rent  ,50982.41
+202609,B,6300,Sales & Marketing  ,36513.21
+202609,B,6400,Energy  ,50843.04
+202609,B,6500,Admin & Other  ,67164.06
+202609,B,7000,Depreciation  ,60000.0
+202609,B,7100,Bank Interest  ,30000.0
+202609,B,7200,Corporation Tax  ,23875.99

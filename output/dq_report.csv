@@ -1,0 +1,12 @@
+company_id,check,severity,detail
+C1,control_total,INFO,CTRL_GROSS_PROFIT reconciles to reported figures
+C1,control_total,INFO,CTRL_NET_INCOME reconciles to reported figures
+C1,product_vs_pl_revenue,INFO,Product-level revenue ties to P&L revenue every month
+C2,duplicate_rows,WARN,Removed 3 exact duplicate GL rows
+C2,product_vs_pl_revenue,INFO,Product-level revenue ties to P&L revenue every month
+C3,control_total,INFO,CTRL_EBITDA reconciles to reported figures
+C3,control_total,INFO,CTRL_GROSS_PROFIT reconciles to reported figures
+C3,control_total,INFO,CTRL_NET_INCOME reconciles to reported figures
+C3,product_vs_pl_revenue,INFO,Product-level revenue ties to P&L revenue every month
+C4,tb_balance,INFO,Trial balance balances (Soll = Haben) in every period
+C4,product_vs_pl_revenue,INFO,Product-level revenue ties to P&L revenue every month

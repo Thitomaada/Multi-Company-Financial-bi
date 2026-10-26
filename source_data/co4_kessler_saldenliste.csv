@@ -1,0 +1,463 @@
+Periode;Szenario;Konto;Bezeichnung;Soll;Haben
+2025-01;Ist;8400;Umsatzerlöse;0,0;2215437,78
+2025-01;Ist;3400;Wareneinsatz;1763232,29;0,0
+2025-01;Ist;4100;Löhne und Gehälter;191449,01;0,0
+2025-01;Ist;4210;Miete und Pacht;72785,64;0,0
+2025-01;Ist;4600;Werbe- und Reisekosten;24558,31;0,0
+2025-01;Ist;4240;Energie und Nebenkosten;48372,76;0,0
+2025-01;Ist;4900;Sonstige betriebliche Aufwendungen;85576,36;0,0
+2025-01;Ist;4830;Abschreibungen;70000,0;0,0
+2025-01;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2025-01;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2025-01;Ist;1200;Bank und Forderungen;0,0;65536,58999999985
+2025-01;Plan;8400;Umsatzerlöse;0,0;2177863,74
+2025-01;Plan;3400;Wareneinsatz;1792293,11;0,0
+2025-01;Plan;4100;Löhne und Gehälter;196497,95;0,0
+2025-01;Plan;4210;Miete und Pacht;69196,01;0,0
+2025-01;Plan;4600;Werbe- und Reisekosten;23618,07;0,0
+2025-01;Plan;4240;Energie und Nebenkosten;48533,43;0,0
+2025-01;Plan;4900;Sonstige betriebliche Aufwendungen;85669,67;0,0
+2025-01;Plan;4830;Abschreibungen;70000,0;0,0
+2025-01;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2025-01;Plan;4950;Steuern vom Einkommen;0,0;0,0
+2025-01;Plan;1200;Bank und Forderungen;0,0;132944,5
+2025-02;Ist;8400;Umsatzerlöse;0,0;2222030,06
+2025-02;Ist;3400;Wareneinsatz;1773676,78;0,0
+2025-02;Ist;4100;Löhne und Gehälter;189079,83;0,0
+2025-02;Ist;4210;Miete und Pacht;70856,65;0,0
+2025-02;Ist;4600;Werbe- und Reisekosten;23963,59;0,0
+2025-02;Ist;4240;Energie und Nebenkosten;48765,05;0,0
+2025-02;Ist;4900;Sonstige betriebliche Aufwendungen;84612,55;0,0
+2025-02;Ist;4830;Abschreibungen;70000,0;0,0
+2025-02;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2025-02;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2025-02;Ist;1200;Bank und Forderungen;0,0;63924,389999999665
+2025-02;Plan;8400;Umsatzerlöse;0,0;2228677,43
+2025-02;Plan;3400;Wareneinsatz;1868262,12;0,0
+2025-02;Plan;4100;Löhne und Gehälter;171107,14;0,0
+2025-02;Plan;4210;Miete und Pacht;67485,84;0,0
+2025-02;Plan;4600;Werbe- und Reisekosten;25735,06;0,0
+2025-02;Plan;4240;Energie und Nebenkosten;48781,71;0,0
+2025-02;Plan;4900;Sonstige betriebliche Aufwendungen;81715,84;0,0
+2025-02;Plan;4830;Abschreibungen;70000,0;0,0
+2025-02;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2025-02;Plan;4950;Steuern vom Einkommen;0,0;0,0
+2025-02;Plan;1200;Bank und Forderungen;0,0;129410,2799999998
+2025-03;Ist;8400;Umsatzerlöse;0,0;2281958,72
+2025-03;Ist;3400;Wareneinsatz;1805904,39;0,0
+2025-03;Ist;4100;Löhne und Gehälter;193034,13;0,0
+2025-03;Ist;4210;Miete und Pacht;73499,76;0,0
+2025-03;Ist;4600;Werbe- und Reisekosten;23878,45;0,0
+2025-03;Ist;4240;Energie und Nebenkosten;48837,29;0,0
+2025-03;Ist;4900;Sonstige betriebliche Aufwendungen;83920,39;0,0
+2025-03;Ist;4830;Abschreibungen;70000,0;0,0
+2025-03;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2025-03;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2025-03;Ist;1200;Bank und Forderungen;0,0;42115,689999999944
+2025-03;Plan;8400;Umsatzerlöse;0,0;2209822,04
+2025-03;Plan;3400;Wareneinsatz;1883281,45;0,0
+2025-03;Plan;4100;Löhne und Gehälter;178389,9;0,0
+2025-03;Plan;4210;Miete und Pacht;77397,53;0,0
+2025-03;Plan;4600;Werbe- und Reisekosten;21792,44;0,0
+2025-03;Plan;4240;Energie und Nebenkosten;49960,0;0,0
+2025-03;Plan;4900;Sonstige betriebliche Aufwendungen;83627,0;0,0
+2025-03;Plan;4830;Abschreibungen;70000,0;0,0
+2025-03;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2025-03;Plan;4950;Steuern vom Einkommen;0,0;0,0
+2025-03;Plan;1200;Bank und Forderungen;0,0;179626,2799999998
+2025-04;Ist;8400;Umsatzerlöse;0,0;2455084,51
+2025-04;Ist;3400;Wareneinsatz;1943514,03;0,0
+2025-04;Ist;4100;Löhne und Gehälter;197609,18;0,0
+2025-04;Ist;4210;Miete und Pacht;77863,06;0,0
+2025-04;Ist;4600;Werbe- und Reisekosten;24580,88;0,0
+2025-04;Ist;4240;Energie und Nebenkosten;49121,65;0,0
+2025-04;Ist;4900;Sonstige betriebliche Aufwendungen;88281,03;0,0
+2025-04;Ist;4830;Abschreibungen;70000,0;0,0
+2025-04;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2025-04;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2025-04;Ist;1200;Bank und Forderungen;0,0;20885,319999999832
+2025-04;Plan;8400;Umsatzerlöse;0,0;2529927,26
+2025-04;Plan;3400;Wareneinsatz;1942192,74;0,0
+2025-04;Plan;4100;Löhne und Gehälter;193133,9;0,0
+2025-04;Plan;4210;Miete und Pacht;78413,11;0,0
+2025-04;Plan;4600;Werbe- und Reisekosten;22866,43;0,0
+2025-04;Plan;4240;Energie und Nebenkosten;47358,47;0,0
+2025-04;Plan;4900;Sonstige betriebliche Aufwendungen;84010,84;0,0
+2025-04;Plan;4830;Abschreibungen;70000,0;0,0
+2025-04;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2025-04;Plan;4950;Steuern vom Einkommen;16737,94;0,0
+2025-04;Plan;1200;Bank und Forderungen;50213,82999999961;0,0
+2025-05;Ist;8400;Umsatzerlöse;0,0;2433483,78
+2025-05;Ist;3400;Wareneinsatz;1934930,55;0,0
+2025-05;Ist;4100;Löhne und Gehälter;200543,3;0,0
+2025-05;Ist;4210;Miete und Pacht;74577,8;0,0
+2025-05;Ist;4600;Werbe- und Reisekosten;24693,28;0,0
+2025-05;Ist;4240;Energie und Nebenkosten;50547,91;0,0
+2025-05;Ist;4900;Sonstige betriebliche Aufwendungen;82688,73;0,0
+2025-05;Ist;4830;Abschreibungen;70000,0;0,0
+2025-05;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2025-05;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2025-05;Ist;1200;Bank und Forderungen;0,0;29497,790000000037
+2025-05;Plan;8400;Umsatzerlöse;0,0;2380791,55
+2025-05;Plan;3400;Wareneinsatz;1837107,85;0,0
+2025-05;Plan;4100;Löhne und Gehälter;199042,22;0,0
+2025-05;Plan;4210;Miete und Pacht;69428,07;0,0
+2025-05;Plan;4600;Werbe- und Reisekosten;23936,64;0,0
+2025-05;Plan;4240;Energie und Nebenkosten;52503,55;0,0
+2025-05;Plan;4900;Sonstige betriebliche Aufwendungen;84809,24;0,0
+2025-05;Plan;4830;Abschreibungen;70000,0;0,0
+2025-05;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2025-05;Plan;4950;Steuern vom Einkommen;4740,99;0,0
+2025-05;Plan;1200;Bank und Forderungen;14222,989999999292;0,0
+2025-06;Ist;8400;Umsatzerlöse;0,0;2470400,89
+2025-06;Ist;3400;Wareneinsatz;1960538,89;0,0
+2025-06;Ist;4100;Löhne und Gehälter;198978,58;0,0
+2025-06;Ist;4210;Miete und Pacht;74893,6;0,0
+2025-06;Ist;4600;Werbe- und Reisekosten;24643,9;0,0
+2025-06;Ist;4240;Energie und Nebenkosten;49827,2;0,0
+2025-06;Ist;4900;Sonstige betriebliche Aufwendungen;85195,4;0,0
+2025-06;Ist;4830;Abschreibungen;70000,0;0,0
+2025-06;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2025-06;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2025-06;Ist;1200;Bank und Forderungen;0,0;18676,679999999702
+2025-06;Plan;8400;Umsatzerlöse;0,0;2667628,39
+2025-06;Plan;3400;Wareneinsatz;1952892,69;0,0
+2025-06;Plan;4100;Löhne und Gehälter;194883,37;0,0
+2025-06;Plan;4210;Miete und Pacht;75972,56;0,0
+2025-06;Plan;4600;Werbe- und Reisekosten;24283,41;0,0
+2025-06;Plan;4240;Energie und Nebenkosten;49967,1;0,0
+2025-06;Plan;4900;Sonstige betriebliche Aufwendungen;88909,63;0,0
+2025-06;Plan;4830;Abschreibungen;70000,0;0,0
+2025-06;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2025-06;Plan;4950;Steuern vom Einkommen;46429,91;0,0
+2025-06;Plan;1200;Bank und Forderungen;139289,71999999974;0,0
+2025-07;Ist;8400;Umsatzerlöse;0,0;2485313,4
+2025-07;Ist;3400;Wareneinsatz;1985229,16;0,0
+2025-07;Ist;4100;Löhne und Gehälter;196929,24;0,0
+2025-07;Ist;4210;Miete und Pacht;74945,86;0,0
+2025-07;Ist;4600;Werbe- und Reisekosten;25125,4;0,0
+2025-07;Ist;4240;Energie und Nebenkosten;49400,17;0,0
+2025-07;Ist;4900;Sonstige betriebliche Aufwendungen;86658,42;0,0
+2025-07;Ist;4830;Abschreibungen;70000,0;0,0
+2025-07;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2025-07;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2025-07;Ist;1200;Bank und Forderungen;0,0;27974,849999999627
+2025-07;Plan;8400;Umsatzerlöse;0,0;2522559,59
+2025-07;Plan;3400;Wareneinsatz;2032110,82;0,0
+2025-07;Plan;4100;Löhne und Gehälter;192345,39;0,0
+2025-07;Plan;4210;Miete und Pacht;73574,62;0,0
+2025-07;Plan;4600;Werbe- und Reisekosten;25020,51;0,0
+2025-07;Plan;4240;Energie und Nebenkosten;48257,67;0,0
+2025-07;Plan;4900;Sonstige betriebliche Aufwendungen;86863,81;0,0
+2025-07;Plan;4830;Abschreibungen;70000,0;0,0
+2025-07;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2025-07;Plan;4950;Steuern vom Einkommen;0,0;0,0
+2025-07;Plan;1200;Bank und Forderungen;0,0;30613,22999999998
+2025-08;Ist;8400;Umsatzerlöse;0,0;2482458,03
+2025-08;Ist;3400;Wareneinsatz;1975430,34;0,0
+2025-08;Ist;4100;Löhne und Gehälter;192334,26;0,0
+2025-08;Ist;4210;Miete und Pacht;74765,77;0,0
+2025-08;Ist;4600;Werbe- und Reisekosten;24601,78;0,0
+2025-08;Ist;4240;Energie und Nebenkosten;48816,62;0,0
+2025-08;Ist;4900;Sonstige betriebliche Aufwendungen;85824,21;0,0
+2025-08;Ist;4830;Abschreibungen;70000,0;0,0
+2025-08;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2025-08;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2025-08;Ist;1200;Bank und Forderungen;0,0;14314,950000000186
+2025-08;Plan;8400;Umsatzerlöse;0,0;2528679,43
+2025-08;Plan;3400;Wareneinsatz;1935388,65;0,0
+2025-08;Plan;4100;Löhne und Gehälter;187298,6;0,0
+2025-08;Plan;4210;Miete und Pacht;74541,8;0,0
+2025-08;Plan;4600;Werbe- und Reisekosten;23561,9;0,0
+2025-08;Plan;4240;Energie und Nebenkosten;47459,82;0,0
+2025-08;Plan;4900;Sonstige betriebliche Aufwendungen;88583,25;0,0
+2025-08;Plan;4830;Abschreibungen;70000,0;0,0
+2025-08;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2025-08;Plan;4950;Steuern vom Einkommen;19211,35;0,0
+2025-08;Plan;1200;Bank und Forderungen;57634,06000000052;0,0
+2025-09;Ist;8400;Umsatzerlöse;0,0;2357349,1
+2025-09;Ist;3400;Wareneinsatz;1877704,82;0,0
+2025-09;Ist;4100;Löhne und Gehälter;191625,0;0,0
+2025-09;Ist;4210;Miete und Pacht;74152,59;0,0
+2025-09;Ist;4600;Werbe- und Reisekosten;24351,31;0,0
+2025-09;Ist;4240;Energie und Nebenkosten;49570,71;0,0
+2025-09;Ist;4900;Sonstige betriebliche Aufwendungen;87979,23;0,0
+2025-09;Ist;4830;Abschreibungen;70000,0;0,0
+2025-09;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2025-09;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2025-09;Ist;1200;Bank und Forderungen;0,0;43034,560000000056
+2025-09;Plan;8400;Umsatzerlöse;0,0;2289145,62
+2025-09;Plan;3400;Wareneinsatz;1833602,3;0,0
+2025-09;Plan;4100;Löhne und Gehälter;195894,32;0,0
+2025-09;Plan;4210;Miete und Pacht;76134,86;0,0
+2025-09;Plan;4600;Werbe- und Reisekosten;23660,09;0,0
+2025-09;Plan;4240;Energie und Nebenkosten;50629,36;0,0
+2025-09;Plan;4900;Sonstige betriebliche Aufwendungen;88017,99;0,0
+2025-09;Plan;4830;Abschreibungen;70000,0;0,0
+2025-09;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2025-09;Plan;4950;Steuern vom Einkommen;0,0;0,0
+2025-09;Plan;1200;Bank und Forderungen;0,0;73793,29999999981
+2025-10;Ist;8400;Umsatzerlöse;0,0;2310767,54
+2025-10;Ist;3400;Wareneinsatz;1840060,0;0,0
+2025-10;Ist;4100;Löhne und Gehälter;202909,16;0,0
+2025-10;Ist;4210;Miete und Pacht;73225,3;0,0
+2025-10;Ist;4600;Werbe- und Reisekosten;25260,31;0,0
+2025-10;Ist;4240;Energie und Nebenkosten;48215,01;0,0
+2025-10;Ist;4900;Sonstige betriebliche Aufwendungen;85448,41;0,0
+2025-10;Ist;4830;Abschreibungen;70000,0;0,0
+2025-10;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2025-10;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2025-10;Ist;1200;Bank und Forderungen;0,0;59350,64999999991
+2025-10;Plan;8400;Umsatzerlöse;0,0;2343080,33
+2025-10;Plan;3400;Wareneinsatz;1795718,94;0,0
+2025-10;Plan;4100;Löhne und Gehälter;211676,41;0,0
+2025-10;Plan;4210;Miete und Pacht;70059,79;0,0
+2025-10;Plan;4600;Werbe- und Reisekosten;24980,27;0,0
+2025-10;Plan;4240;Energie und Nebenkosten;47997,71;0,0
+2025-10;Plan;4900;Sonstige betriebliche Aufwendungen;84282,37;0,0
+2025-10;Plan;4830;Abschreibungen;70000,0;0,0
+2025-10;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2025-10;Plan;4950;Steuern vom Einkommen;3341,21;0,0
+2025-10;Plan;1200;Bank und Forderungen;10023,630000000354;0,0
+2025-11;Ist;8400;Umsatzerlöse;0,0;2313266,0
+2025-11;Ist;3400;Wareneinsatz;1859868,5;0,0
+2025-11;Ist;4100;Löhne und Gehälter;194485,6;0,0
+2025-11;Ist;4210;Miete und Pacht;75301,48;0,0
+2025-11;Ist;4600;Werbe- und Reisekosten;25696,19;0,0
+2025-11;Ist;4240;Energie und Nebenkosten;50037,36;0,0
+2025-11;Ist;4900;Sonstige betriebliche Aufwendungen;85419,93;0,0
+2025-11;Ist;4830;Abschreibungen;70000,0;0,0
+2025-11;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2025-11;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2025-11;Ist;1200;Bank und Forderungen;0,0;72543,06000000006
+2025-11;Plan;8400;Umsatzerlöse;0,0;2535684,79
+2025-11;Plan;3400;Wareneinsatz;1792980,83;0,0
+2025-11;Plan;4100;Löhne und Gehälter;198153,41;0,0
+2025-11;Plan;4210;Miete und Pacht;78343,38;0,0
+2025-11;Plan;4600;Werbe- und Reisekosten;25534,88;0,0
+2025-11;Plan;4240;Energie und Nebenkosten;50604,99;0,0
+2025-11;Plan;4900;Sonstige betriebliche Aufwendungen;88972,68;0,0
+2025-11;Plan;4830;Abschreibungen;70000,0;0,0
+2025-11;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2025-11;Plan;4950;Steuern vom Einkommen;51523,66;0,0
+2025-11;Plan;1200;Bank und Forderungen;154570,9599999995;0,0
+2025-12;Ist;8400;Umsatzerlöse;0,0;2299528,4
+2025-12;Ist;3400;Wareneinsatz;1863653,78;0,0
+2025-12;Ist;4100;Löhne und Gehälter;193478,44;0,0
+2025-12;Ist;4210;Miete und Pacht;74319,27;0,0
+2025-12;Ist;4600;Werbe- und Reisekosten;25025,61;0,0
+2025-12;Ist;4240;Energie und Nebenkosten;50937,81;0,0
+2025-12;Ist;4900;Sonstige betriebliche Aufwendungen;89692,04;0,0
+2025-12;Ist;4830;Abschreibungen;70000,0;0,0
+2025-12;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2025-12;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2025-12;Ist;1200;Bank und Forderungen;0,0;92578,54999999981
+2025-12;Plan;8400;Umsatzerlöse;0,0;2405094,62
+2025-12;Plan;3400;Wareneinsatz;1841332,08;0,0
+2025-12;Plan;4100;Löhne und Gehälter;205806,73;0,0
+2025-12;Plan;4210;Miete und Pacht;71903,78;0,0
+2025-12;Plan;4600;Werbe- und Reisekosten;24810,6;0,0
+2025-12;Plan;4240;Energie und Nebenkosten;51546,02;0,0
+2025-12;Plan;4900;Sonstige betriebliche Aufwendungen;87342,15;0,0
+2025-12;Plan;4830;Abschreibungen;70000,0;0,0
+2025-12;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2025-12;Plan;4950;Steuern vom Einkommen;6838,31;0,0
+2025-12;Plan;1200;Bank und Forderungen;20514,950000000186;0,0
+2026-01;Ist;8400;Umsatzerlöse;0,0;2240545,21
+2026-01;Ist;3400;Wareneinsatz;1798488,39;0,0
+2026-01;Ist;4100;Löhne und Gehälter;202862,28;0,0
+2026-01;Ist;4210;Miete und Pacht;75759,38;0,0
+2026-01;Ist;4600;Werbe- und Reisekosten;24519,06;0,0
+2026-01;Ist;4240;Energie und Nebenkosten;51130,87;0,0
+2026-01;Ist;4900;Sonstige betriebliche Aufwendungen;84339,71;0,0
+2026-01;Ist;4830;Abschreibungen;70000,0;0,0
+2026-01;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2026-01;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2026-01;Ist;1200;Bank und Forderungen;0,0;91554,47999999998
+2026-01;Plan;8400;Umsatzerlöse;0,0;2248193,36
+2026-01;Plan;3400;Wareneinsatz;1907912,69;0,0
+2026-01;Plan;4100;Löhne und Gehälter;191779,52;0,0
+2026-01;Plan;4210;Miete und Pacht;70590,3;0,0
+2026-01;Plan;4600;Werbe- und Reisekosten;23561,38;0,0
+2026-01;Plan;4240;Energie und Nebenkosten;51417,17;0,0
+2026-01;Plan;4900;Sonstige betriebliche Aufwendungen;83474,4;0,0
+2026-01;Plan;4830;Abschreibungen;70000,0;0,0
+2026-01;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2026-01;Plan;4950;Steuern vom Einkommen;0,0;0,0
+2026-01;Plan;1200;Bank und Forderungen;0,0;175542,09999999963
+2026-02;Ist;8400;Umsatzerlöse;0,0;2362707,98
+2026-02;Ist;3400;Wareneinsatz;1915071,2;0,0
+2026-02;Ist;4100;Löhne und Gehälter;201419,79;0,0
+2026-02;Ist;4210;Miete und Pacht;74153,76;0,0
+2026-02;Ist;4600;Werbe- und Reisekosten;24938,25;0,0
+2026-02;Ist;4240;Energie und Nebenkosten;50234,16;0,0
+2026-02;Ist;4900;Sonstige betriebliche Aufwendungen;88745,98;0,0
+2026-02;Ist;4830;Abschreibungen;70000,0;0,0
+2026-02;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2026-02;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2026-02;Ist;1200;Bank und Forderungen;0,0;86855,15999999968
+2026-02;Plan;8400;Umsatzerlöse;0,0;2406810,9
+2026-02;Plan;3400;Wareneinsatz;1920509,83;0,0
+2026-02;Plan;4100;Löhne und Gehälter;190972,76;0,0
+2026-02;Plan;4210;Miete und Pacht;71749,31;0,0
+2026-02;Plan;4600;Werbe- und Reisekosten;24916,46;0,0
+2026-02;Plan;4240;Energie und Nebenkosten;51552,48;0,0
+2026-02;Plan;4900;Sonstige betriebliche Aufwendungen;83220,18;0,0
+2026-02;Plan;4830;Abschreibungen;70000,0;0,0
+2026-02;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2026-02;Plan;4950;Steuern vom Einkommen;0,0;0,0
+2026-02;Plan;1200;Bank und Forderungen;0,0;31110,12000000011
+2026-03;Ist;8400;Umsatzerlöse;0,0;2475442,02
+2026-03;Ist;3400;Wareneinsatz;2005340,93;0,0
+2026-03;Ist;4100;Löhne und Gehälter;208363,47;0,0
+2026-03;Ist;4210;Miete und Pacht;78741,92;0,0
+2026-03;Ist;4600;Werbe- und Reisekosten;26027,34;0,0
+2026-03;Ist;4240;Energie und Nebenkosten;52422,4;0,0
+2026-03;Ist;4900;Sonstige betriebliche Aufwendungen;87448,6;0,0
+2026-03;Ist;4830;Abschreibungen;70000,0;0,0
+2026-03;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2026-03;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2026-03;Ist;1200;Bank und Forderungen;0,0;77902,63999999966
+2026-03;Plan;8400;Umsatzerlöse;0,0;2415591,45
+2026-03;Plan;3400;Wareneinsatz;1828001,05;0,0
+2026-03;Plan;4100;Löhne und Gehälter;207829,67;0,0
+2026-03;Plan;4210;Miete und Pacht;77608,87;0,0
+2026-03;Plan;4600;Werbe- und Reisekosten;27235,52;0,0
+2026-03;Plan;4240;Energie und Nebenkosten;51694,15;0,0
+2026-03;Plan;4900;Sonstige betriebliche Aufwendungen;91815,7;0,0
+2026-03;Plan;4830;Abschreibungen;70000,0;0,0
+2026-03;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2026-03;Plan;4950;Steuern vom Einkommen;9101,62;0,0
+2026-03;Plan;1200;Bank und Forderungen;27304,87000000011;0,0
+2026-04;Ist;8400;Umsatzerlöse;0,0;2566252,76
+2026-04;Ist;3400;Wareneinsatz;2040511,22;0,0
+2026-04;Ist;4100;Löhne und Gehälter;204154,51;0,0
+2026-04;Ist;4210;Miete und Pacht;74829,28;0,0
+2026-04;Ist;4600;Werbe- und Reisekosten;25562,26;0,0
+2026-04;Ist;4240;Energie und Nebenkosten;50352,51;0,0
+2026-04;Ist;4900;Sonstige betriebliche Aufwendungen;91720,31;0,0
+2026-04;Ist;4830;Abschreibungen;70000,0;0,0
+2026-04;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2026-04;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2026-04;Ist;1200;Bank und Forderungen;0,0;15877,329999999609
+2026-04;Plan;8400;Umsatzerlöse;0,0;2503888,16
+2026-04;Plan;3400;Wareneinsatz;2117883,2;0,0
+2026-04;Plan;4100;Löhne und Gehälter;197363,89;0,0
+2026-04;Plan;4210;Miete und Pacht;75367,12;0,0
+2026-04;Plan;4600;Werbe- und Reisekosten;25194,92;0,0
+2026-04;Plan;4240;Energie und Nebenkosten;48374,93;0,0
+2026-04;Plan;4900;Sonstige betriebliche Aufwendungen;84636,46;0,0
+2026-04;Plan;4830;Abschreibungen;70000,0;0,0
+2026-04;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2026-04;Plan;4950;Steuern vom Einkommen;0,0;0,0
+2026-04;Plan;1200;Bank und Forderungen;0,0;139932,36000000034
+2026-05;Ist;8400;Umsatzerlöse;0,0;2606462,37
+2026-05;Ist;3400;Wareneinsatz;2089002,16;0,0
+2026-05;Ist;4100;Löhne und Gehälter;208669,07;0,0
+2026-05;Ist;4210;Miete und Pacht;76463,57;0,0
+2026-05;Ist;4600;Werbe- und Reisekosten;25697,38;0,0
+2026-05;Ist;4240;Energie und Nebenkosten;51355,04;0,0
+2026-05;Ist;4900;Sonstige betriebliche Aufwendungen;89854,5;0,0
+2026-05;Ist;4830;Abschreibungen;70000,0;0,0
+2026-05;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2026-05;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2026-05;Ist;1200;Bank und Forderungen;0,0;29579,349999999627
+2026-05;Plan;8400;Umsatzerlöse;0,0;2820287,12
+2026-05;Plan;3400;Wareneinsatz;2137791,96;0,0
+2026-05;Plan;4100;Löhne und Gehälter;209549,07;0,0
+2026-05;Plan;4210;Miete und Pacht;76388,47;0,0
+2026-05;Plan;4600;Werbe- und Reisekosten;26845,56;0,0
+2026-05;Plan;4240;Energie und Nebenkosten;47805,88;0,0
+2026-05;Plan;4900;Sonstige betriebliche Aufwendungen;93500,9;0,0
+2026-05;Plan;4830;Abschreibungen;70000,0;0,0
+2026-05;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2026-05;Plan;4950;Steuern vom Einkommen;33351,32;0,0
+2026-05;Plan;1200;Bank und Forderungen;100053,96000000043;0,0
+2026-06;Ist;8400;Umsatzerlöse;0,0;2593261,67
+2026-06;Ist;3400;Wareneinsatz;2090219,6;0,0
+2026-06;Ist;4100;Löhne und Gehälter;202791,33;0,0
+2026-06;Ist;4210;Miete und Pacht;75943,67;0,0
+2026-06;Ist;4600;Werbe- und Reisekosten;24419,77;0,0
+2026-06;Ist;4240;Energie und Nebenkosten;52375,57;0,0
+2026-06;Ist;4900;Sonstige betriebliche Aufwendungen;88805,06;0,0
+2026-06;Ist;4830;Abschreibungen;70000,0;0,0
+2026-06;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2026-06;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2026-06;Ist;1200;Bank und Forderungen;0,0;36293,330000000075
+2026-06;Plan;8400;Umsatzerlöse;0,0;2524860,72
+2026-06;Plan;3400;Wareneinsatz;2132153,52;0,0
+2026-06;Plan;4100;Löhne und Gehälter;197837,74;0,0
+2026-06;Plan;4210;Miete und Pacht;75009,93;0,0
+2026-06;Plan;4600;Werbe- und Reisekosten;23619,43;0,0
+2026-06;Plan;4240;Energie und Nebenkosten;53204,18;0,0
+2026-06;Plan;4900;Sonstige betriebliche Aufwendungen;90004,76;0,0
+2026-06;Plan;4830;Abschreibungen;70000,0;0,0
+2026-06;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2026-06;Plan;4950;Steuern vom Einkommen;0,0;0,0
+2026-06;Plan;1200;Bank und Forderungen;0,0;141968,83999999985
+2026-07;Ist;8400;Umsatzerlöse;0,0;2620908,52
+2026-07;Ist;3400;Wareneinsatz;2117301,92;0,0
+2026-07;Ist;4100;Löhne und Gehälter;201268,63;0,0
+2026-07;Ist;4210;Miete und Pacht;77100,9;0,0
+2026-07;Ist;4600;Werbe- und Reisekosten;25483,41;0,0
+2026-07;Ist;4240;Energie und Nebenkosten;51261,19;0,0
+2026-07;Ist;4900;Sonstige betriebliche Aufwendungen;93933,37;0,0
+2026-07;Ist;4830;Abschreibungen;70000,0;0,0
+2026-07;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2026-07;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2026-07;Ist;1200;Bank und Forderungen;0,0;40440,89999999991
+2026-07;Plan;8400;Umsatzerlöse;0,0;2700865,16
+2026-07;Plan;3400;Wareneinsatz;2201105,44;0,0
+2026-07;Plan;4100;Löhne und Gehälter;206930,46;0,0
+2026-07;Plan;4210;Miete und Pacht;72258,64;0,0
+2026-07;Plan;4600;Werbe- und Reisekosten;25609,71;0,0
+2026-07;Plan;4240;Energie und Nebenkosten;52709,84;0,0
+2026-07;Plan;4900;Sonstige betriebliche Aufwendungen;87970,62;0,0
+2026-07;Plan;4830;Abschreibungen;70000,0;0,0
+2026-07;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2026-07;Plan;4950;Steuern vom Einkommen;0,0;0,0
+2026-07;Plan;1200;Bank und Forderungen;0,0;40719,549999999814
+2026-08;Ist;8400;Umsatzerlöse;0,0;2555902,5
+2026-08;Ist;3400;Wareneinsatz;2090211,42;0,0
+2026-08;Ist;4100;Löhne und Gehälter;202919,03;0,0
+2026-08;Ist;4210;Miete und Pacht;75901,89;0,0
+2026-08;Ist;4600;Werbe- und Reisekosten;25770,88;0,0
+2026-08;Ist;4240;Energie und Nebenkosten;51456,72;0,0
+2026-08;Ist;4900;Sonstige betriebliche Aufwendungen;87703,35;0,0
+2026-08;Ist;4830;Abschreibungen;70000,0;0,0
+2026-08;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2026-08;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2026-08;Ist;1200;Bank und Forderungen;0,0;73060,79000000004
+2026-08;Plan;8400;Umsatzerlöse;0,0;2745913,86
+2026-08;Plan;3400;Wareneinsatz;2084200,85;0,0
+2026-08;Plan;4100;Löhne und Gehälter;191421,52;0,0
+2026-08;Plan;4210;Miete und Pacht;77482,07;0,0
+2026-08;Plan;4600;Werbe- und Reisekosten;24766,45;0,0
+2026-08;Plan;4240;Energie und Nebenkosten;54275,03;0,0
+2026-08;Plan;4900;Sonstige betriebliche Aufwendungen;91047,2;0,0
+2026-08;Plan;4830;Abschreibungen;70000,0;0,0
+2026-08;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2026-08;Plan;4950;Steuern vom Einkommen;31930,18;0,0
+2026-08;Plan;1200;Bank und Forderungen;95790,55999999959;0,0
+2026-09;Ist;8400;Umsatzerlöse;0,0;2577388,0
+2026-09;Ist;3400;Wareneinsatz;2042583,3;0,0
+2026-09;Ist;4100;Löhne und Gehälter;204980,66;0,0
+2026-09;Ist;4210;Miete und Pacht;77050,5;0,0
+2026-09;Ist;4600;Werbe- und Reisekosten;25448,77;0,0
+2026-09;Ist;4240;Energie und Nebenkosten;51170,1;0,0
+2026-09;Ist;4900;Sonstige betriebliche Aufwendungen;92498,85;0,0
+2026-09;Ist;4830;Abschreibungen;70000,0;0,0
+2026-09;Ist;2100;Zinsaufwendungen;25000,0;0,0
+2026-09;Ist;4950;Steuern vom Einkommen;0,0;0,0
+2026-09;Ist;1200;Bank und Forderungen;0,0;11344,180000000168
+2026-09;Plan;8400;Umsatzerlöse;0,0;2611033,2
+2026-09;Plan;3400;Wareneinsatz;2017627,94;0,0
+2026-09;Plan;4100;Löhne und Gehälter;182259,41;0,0
+2026-09;Plan;4210;Miete und Pacht;78213,53;0,0
+2026-09;Plan;4600;Werbe- und Reisekosten;26314,32;0,0
+2026-09;Plan;4240;Energie und Nebenkosten;49463,36;0,0
+2026-09;Plan;4900;Sonstige betriebliche Aufwendungen;93163,33;0,0
+2026-09;Plan;4830;Abschreibungen;70000,0;0,0
+2026-09;Plan;2100;Zinsaufwendungen;25000,0;0,0
+2026-09;Plan;4950;Steuern vom Einkommen;17247,83;0,0
+2026-09;Plan;1200;Bank und Forderungen;51743,48000000045;0,0

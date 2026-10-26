@@ -1,0 +1,15 @@
+line_std,line_name,statement,line_type,line_group,sort_order
+REVENUE,Revenue,P&L,Revenue,Revenue,10
+COGS,Cost of Goods Sold,P&L,Expense,Cost of Sales,20
+PAYROLL,Payroll,P&L,Expense,Operating Expenses,30
+RENT,Rent & Facilities,P&L,Expense,Operating Expenses,31
+MARKETING,Marketing,P&L,Expense,Operating Expenses,32
+UTILITIES,Utilities,P&L,Expense,Operating Expenses,33
+OTHER_OPEX,Other Operating Expenses,P&L,Expense,Operating Expenses,34
+DA,Depreciation & Amortisation,P&L,Expense,Below EBITDA,40
+INTEREST,Interest,P&L,Expense,Below EBITDA,41
+TAX,Income Tax,P&L,Expense,Below EBITDA,42
+CF_OPERATING,Operating Cash Flow,Cash Flow,CashFlow,Cash Flow,50
+CF_CAPEX,Capital Expenditure,Cash Flow,CashFlow,Cash Flow,51
+CF_FINANCING,Financing Cash Flow,Cash Flow,CashFlow,Cash Flow,52
+CASH_CLOSING,Closing Cash Balance,Cash Flow,Balance,Cash Balance,53

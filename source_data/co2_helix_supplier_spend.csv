@@ -1,0 +1,106 @@
+period,supplier,po_value,on_time_pct,defect_rate_pct
+202501,Sheffield Steel,396258.67,94.4,1.39
+202501,Midlands Castings,231788.26,85.1,2.81
+202501,Precision Fasteners,109040.58,98.6,1.01
+202501,Northern Rubber,111136.49,90.9,2.38
+202501,Euro Hydraulics GmbH,167911.94,79.7,3.8
+202502,Sheffield Steel,369561.61,93.0,1.69
+202502,Midlands Castings,210039.33,85.2,2.69
+202502,Precision Fasteners,122043.52,94.7,0.24
+202502,Northern Rubber,95282.97,89.7,2.31
+202502,Euro Hydraulics GmbH,177663.1,82.1,4.69
+202503,Sheffield Steel,434226.05,96.6,1.5
+202503,Midlands Castings,239311.23,87.9,3.53
+202503,Precision Fasteners,141806.9,96.3,1.24
+202503,Northern Rubber,119617.4,91.0,1.6
+202503,Euro Hydraulics GmbH,190027.93,81.0,4.15
+202504,Sheffield Steel,458942.47,95.6,1.92
+202504,Midlands Castings,234048.65,93.5,2.75
+202504,Precision Fasteners,141032.52,92.9,0.78
+202504,Northern Rubber,119565.55,92.2,1.8
+202504,Euro Hydraulics GmbH,202123.64,84.3,3.3
+202505,Sheffield Steel,457503.47,94.4,1.83
+202505,Midlands Castings,237242.4,88.8,3.57
+202505,Precision Fasteners,143333.99,98.4,1.61
+202505,Northern Rubber,105717.03,91.1,2.42
+202505,Euro Hydraulics GmbH,203753.8,79.4,4.06
+202506,Sheffield Steel,431888.52,93.4,1.64
+202506,Midlands Castings,245606.52,87.4,3.1
+202506,Precision Fasteners,151094.77,93.6,1.29
+202506,Northern Rubber,124048.26,87.3,2.79
+202506,Euro Hydraulics GmbH,221625.06,82.2,4.4
+202507,Sheffield Steel,421420.2,91.9,2.14
+202507,Midlands Castings,263696.71,88.4,3.2
+202507,Precision Fasteners,136132.7,94.4,0.85
+202507,Northern Rubber,115082.23,86.9,1.66
+202507,Euro Hydraulics GmbH,189821.73,81.2,4.27
+202508,Sheffield Steel,397838.79,95.0,1.93
+202508,Midlands Castings,265063.76,88.9,3.03
+202508,Precision Fasteners,147521.77,95.4,1.42
+202508,Northern Rubber,113289.59,89.3,2.03
+202508,Euro Hydraulics GmbH,203131.71,81.0,4.3
+202509,Sheffield Steel,429663.03,92.9,1.2
+202509,Midlands Castings,239923.17,88.7,3.02
+202509,Precision Fasteners,132119.89,100.0,1.21
+202509,Northern Rubber,104812.71,90.2,2.33
+202509,Euro Hydraulics GmbH,189907.12,82.2,3.67
+202510,Sheffield Steel,446010.67,94.2,1.98
+202510,Midlands Castings,255432.83,91.1,2.73
+202510,Precision Fasteners,138294.0,95.5,0.92
+202510,Northern Rubber,103458.19,88.6,1.42
+202510,Euro Hydraulics GmbH,200635.8,80.6,4.05
+202511,Sheffield Steel,402889.58,93.1,0.49
+202511,Midlands Castings,237708.34,90.7,3.03
+202511,Precision Fasteners,136255.08,99.1,1.1
+202511,Northern Rubber,109563.92,90.8,2.02
+202511,Euro Hydraulics GmbH,215394.84,82.8,4.22
+202512,Sheffield Steel,397689.75,93.3,1.41
+202512,Midlands Castings,252148.4,85.3,2.31
+202512,Precision Fasteners,134860.81,94.0,0.85
+202512,Northern Rubber,109384.46,87.4,1.56
+202512,Euro Hydraulics GmbH,199127.48,76.4,4.21
+202601,Sheffield Steel,417609.55,90.4,1.1
+202601,Midlands Castings,227044.72,90.1,3.18
+202601,Precision Fasteners,130971.01,95.6,0.69
+202601,Northern Rubber,113281.97,87.9,1.85
+202601,Euro Hydraulics GmbH,204319.07,83.2,3.97
+202602,Sheffield Steel,411050.35,90.2,1.65
+202602,Midlands Castings,249361.43,86.2,2.89
+202602,Precision Fasteners,146902.12,95.5,0.85
+202602,Northern Rubber,124867.95,88.3,2.02
+202602,Euro Hydraulics GmbH,219920.49,82.1,3.24
+202603,Sheffield Steel,429392.87,90.6,1.36
+202603,Midlands Castings,260444.63,92.6,2.95
+202603,Precision Fasteners,146964.35,96.2,0.98
+202603,Northern Rubber,127399.76,87.7,2.46
+202603,Euro Hydraulics GmbH,232791.68,88.8,3.79
+202604,Sheffield Steel,462092.43,93.4,1.49
+202604,Midlands Castings,250500.69,88.0,2.76
+202604,Precision Fasteners,146037.43,96.1,1.03
+202604,Northern Rubber,113102.0,89.8,2.89
+202604,Euro Hydraulics GmbH,228289.62,81.5,3.69
+202605,Sheffield Steel,467435.61,90.7,1.22
+202605,Midlands Castings,302892.13,85.6,2.83
+202605,Precision Fasteners,139189.09,95.4,1.07
+202605,Northern Rubber,131395.34,90.3,2.17
+202605,Euro Hydraulics GmbH,226980.38,83.0,3.96
+202606,Sheffield Steel,457091.31,91.0,1.85
+202606,Midlands Castings,287718.49,85.2,3.21
+202606,Precision Fasteners,146700.89,99.5,1.56
+202606,Northern Rubber,130667.07,89.1,2.88
+202606,Euro Hydraulics GmbH,237851.95,84.2,4.2
+202607,Sheffield Steel,495671.15,89.5,1.54
+202607,Midlands Castings,259902.71,89.3,3.1
+202607,Precision Fasteners,158721.66,92.8,0.66
+202607,Northern Rubber,134584.76,87.1,2.38
+202607,Euro Hydraulics GmbH,229477.71,82.1,3.64
+202608,Sheffield Steel,472265.4,94.8,1.54
+202608,Midlands Castings,292229.03,87.5,3.26
+202608,Precision Fasteners,147908.63,98.6,1.01
+202608,Northern Rubber,126666.88,88.9,2.62
+202608,Euro Hydraulics GmbH,229211.57,81.6,4.54
+202609,Sheffield Steel,468120.58,91.2,1.54
+202609,Midlands Castings,250337.3,86.9,2.83
+202609,Precision Fasteners,145436.54,98.2,1.86
+202609,Northern Rubber,113166.04,91.6,2.08
+202609,Euro Hydraulics GmbH,217341.15,81.3,3.93

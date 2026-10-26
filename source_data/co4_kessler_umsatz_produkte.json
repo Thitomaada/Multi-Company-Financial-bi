@@ -1,0 +1,674 @@
+[
+ {
+  "period": "2025-01",
+  "produkt": "Fresh Produce",
+  "menge": 158266,
+  "preis_eur": 4.2,
+  "umsatz_eur": 664717.2,
+  "wareneinsatz_eur": 523860.46
+ },
+ {
+  "period": "2025-01",
+  "produkt": "Dry Goods",
+  "menge": 215679,
+  "preis_eur": 2.62,
+  "umsatz_eur": 565078.98,
+  "wareneinsatz_eur": 444298.74
+ },
+ {
+  "period": "2025-01",
+  "produkt": "Beverages",
+  "menge": 281176,
+  "preis_eur": 1.88,
+  "umsatz_eur": 528610.88,
+  "wareneinsatz_eur": 424575.76
+ },
+ {
+  "period": "2025-01",
+  "produkt": "Frozen",
+  "menge": 84013,
+  "preis_eur": 5.44,
+  "umsatz_eur": 457030.72,
+  "wareneinsatz_eur": 370497.33
+ },
+ {
+  "period": "2025-02",
+  "produkt": "Fresh Produce",
+  "menge": 152185,
+  "preis_eur": 4.22,
+  "umsatz_eur": 642220.7,
+  "wareneinsatz_eur": 506776.05
+ },
+ {
+  "period": "2025-02",
+  "produkt": "Dry Goods",
+  "menge": 215180,
+  "preis_eur": 2.58,
+  "umsatz_eur": 555164.4,
+  "wareneinsatz_eur": 443270.8
+ },
+ {
+  "period": "2025-02",
+  "produkt": "Beverages",
+  "menge": 294999,
+  "preis_eur": 1.92,
+  "umsatz_eur": 566398.08,
+  "wareneinsatz_eur": 445448.49
+ },
+ {
+  "period": "2025-02",
+  "produkt": "Frozen",
+  "menge": 85176,
+  "preis_eur": 5.38,
+  "umsatz_eur": 458246.88,
+  "wareneinsatz_eur": 378181.44
+ },
+ {
+  "period": "2025-03",
+  "produkt": "Fresh Produce",
+  "menge": 152764,
+  "preis_eur": 4.25,
+  "umsatz_eur": 649247.0,
+  "wareneinsatz_eur": 502593.56
+ },
+ {
+  "period": "2025-03",
+  "produkt": "Dry Goods",
+  "menge": 218522,
+  "preis_eur": 2.65,
+  "umsatz_eur": 579083.3,
+  "wareneinsatz_eur": 450155.32
+ },
+ {
+  "period": "2025-03",
+  "produkt": "Beverages",
+  "menge": 299069,
+  "preis_eur": 1.91,
+  "umsatz_eur": 571221.79,
+  "wareneinsatz_eur": 451594.19
+ },
+ {
+  "period": "2025-03",
+  "produkt": "Frozen",
+  "menge": 88841,
+  "preis_eur": 5.43,
+  "umsatz_eur": 482406.63,
+  "wareneinsatz_eur": 401561.32
+ },
+ {
+  "period": "2025-04",
+  "produkt": "Fresh Produce",
+  "menge": 170875,
+  "preis_eur": 4.24,
+  "umsatz_eur": 724510.0,
+  "wareneinsatz_eur": 569013.75
+ },
+ {
+  "period": "2025-04",
+  "produkt": "Dry Goods",
+  "menge": 234118,
+  "preis_eur": 2.63,
+  "umsatz_eur": 615730.34,
+  "wareneinsatz_eur": 479941.9
+ },
+ {
+  "period": "2025-04",
+  "produkt": "Beverages",
+  "menge": 316532,
+  "preis_eur": 1.91,
+  "umsatz_eur": 604576.12,
+  "wareneinsatz_eur": 487459.28
+ },
+ {
+  "period": "2025-04",
+  "produkt": "Frozen",
+  "menge": 92945,
+  "preis_eur": 5.49,
+  "umsatz_eur": 510268.05,
+  "wareneinsatz_eur": 407099.1
+ },
+ {
+  "period": "2025-05",
+  "produkt": "Fresh Produce",
+  "menge": 171942,
+  "preis_eur": 4.2,
+  "umsatz_eur": 722156.4,
+  "wareneinsatz_eur": 567408.6
+ },
+ {
+  "period": "2025-05",
+  "produkt": "Dry Goods",
+  "menge": 239739,
+  "preis_eur": 2.59,
+  "umsatz_eur": 620924.01,
+  "wareneinsatz_eur": 496259.73
+ },
+ {
+  "period": "2025-05",
+  "produkt": "Beverages",
+  "menge": 312666,
+  "preis_eur": 1.92,
+  "umsatz_eur": 600318.72,
+  "wareneinsatz_eur": 475252.32
+ },
+ {
+  "period": "2025-05",
+  "produkt": "Frozen",
+  "menge": 89595,
+  "preis_eur": 5.47,
+  "umsatz_eur": 490084.65,
+  "wareneinsatz_eur": 396009.9
+ },
+ {
+  "period": "2025-06",
+  "produkt": "Fresh Produce",
+  "menge": 182529,
+  "preis_eur": 4.27,
+  "umsatz_eur": 779398.83,
+  "wareneinsatz_eur": 615122.73
+ },
+ {
+  "period": "2025-06",
+  "produkt": "Dry Goods",
+  "menge": 220012,
+  "preis_eur": 2.67,
+  "umsatz_eur": 587432.04,
+  "wareneinsatz_eur": 457624.96
+ },
+ {
+  "period": "2025-06",
+  "produkt": "Beverages",
+  "menge": 310206,
+  "preis_eur": 1.92,
+  "umsatz_eur": 595595.52,
+  "wareneinsatz_eur": 477717.24
+ },
+ {
+  "period": "2025-06",
+  "produkt": "Frozen",
+  "menge": 92359,
+  "preis_eur": 5.5,
+  "umsatz_eur": 507974.5,
+  "wareneinsatz_eur": 410073.96
+ },
+ {
+  "period": "2025-07",
+  "produkt": "Fresh Produce",
+  "menge": 168636,
+  "preis_eur": 4.22,
+  "umsatz_eur": 711643.92,
+  "wareneinsatz_eur": 559871.52
+ },
+ {
+  "period": "2025-07",
+  "produkt": "Dry Goods",
+  "menge": 237179,
+  "preis_eur": 2.63,
+  "umsatz_eur": 623780.77,
+  "wareneinsatz_eur": 498075.9
+ },
+ {
+  "period": "2025-07",
+  "produkt": "Beverages",
+  "menge": 334721,
+  "preis_eur": 1.91,
+  "umsatz_eur": 639317.11,
+  "wareneinsatz_eur": 515470.34
+ },
+ {
+  "period": "2025-07",
+  "produkt": "Frozen",
+  "menge": 93170,
+  "preis_eur": 5.48,
+  "umsatz_eur": 510571.6,
+  "wareneinsatz_eur": 411811.4
+ },
+ {
+  "period": "2025-08",
+  "produkt": "Fresh Produce",
+  "menge": 165617,
+  "preis_eur": 4.27,
+  "umsatz_eur": 707184.59,
+  "wareneinsatz_eur": 551504.61
+ },
+ {
+  "period": "2025-08",
+  "produkt": "Dry Goods",
+  "menge": 234846,
+  "preis_eur": 2.59,
+  "umsatz_eur": 608251.14,
+  "wareneinsatz_eur": 486131.22
+ },
+ {
+  "period": "2025-08",
+  "produkt": "Beverages",
+  "menge": 320611,
+  "preis_eur": 1.95,
+  "umsatz_eur": 625191.45,
+  "wareneinsatz_eur": 484122.61
+ },
+ {
+  "period": "2025-08",
+  "produkt": "Frozen",
+  "menge": 99055,
+  "preis_eur": 5.47,
+  "umsatz_eur": 541830.85,
+  "wareneinsatz_eur": 453671.9
+ },
+ {
+  "period": "2025-09",
+  "produkt": "Fresh Produce",
+  "menge": 162487,
+  "preis_eur": 4.23,
+  "umsatz_eur": 687320.01,
+  "wareneinsatz_eur": 549206.06
+ },
+ {
+  "period": "2025-09",
+  "produkt": "Dry Goods",
+  "menge": 218306,
+  "preis_eur": 2.63,
+  "umsatz_eur": 574144.78,
+  "wareneinsatz_eur": 456259.54
+ },
+ {
+  "period": "2025-09",
+  "produkt": "Beverages",
+  "menge": 319222,
+  "preis_eur": 1.93,
+  "umsatz_eur": 616098.46,
+  "wareneinsatz_eur": 482025.22
+ },
+ {
+  "period": "2025-09",
+  "produkt": "Frozen",
+  "menge": 88685,
+  "preis_eur": 5.41,
+  "umsatz_eur": 479785.85,
+  "wareneinsatz_eur": 390214.0
+ },
+ {
+  "period": "2025-10",
+  "produkt": "Fresh Produce",
+  "menge": 149493,
+  "preis_eur": 4.34,
+  "umsatz_eur": 648799.62,
+  "wareneinsatz_eur": 500801.55
+ },
+ {
+  "period": "2025-10",
+  "produkt": "Dry Goods",
+  "menge": 227531,
+  "preis_eur": 2.62,
+  "umsatz_eur": 596131.22,
+  "wareneinsatz_eur": 475539.79
+ },
+ {
+  "period": "2025-10",
+  "produkt": "Beverages",
+  "menge": 284082,
+  "preis_eur": 1.95,
+  "umsatz_eur": 553959.9,
+  "wareneinsatz_eur": 434645.46
+ },
+ {
+  "period": "2025-10",
+  "produkt": "Frozen",
+  "menge": 94095,
+  "preis_eur": 5.44,
+  "umsatz_eur": 511876.8,
+  "wareneinsatz_eur": 429073.2
+ },
+ {
+  "period": "2025-11",
+  "produkt": "Fresh Produce",
+  "menge": 163171,
+  "preis_eur": 4.2,
+  "umsatz_eur": 685318.2,
+  "wareneinsatz_eur": 554781.4
+ },
+ {
+  "period": "2025-11",
+  "produkt": "Dry Goods",
+  "menge": 208456,
+  "preis_eur": 2.61,
+  "umsatz_eur": 544070.16,
+  "wareneinsatz_eur": 437757.6
+ },
+ {
+  "period": "2025-11",
+  "produkt": "Beverages",
+  "menge": 300117,
+  "preis_eur": 1.95,
+  "umsatz_eur": 585228.15,
+  "wareneinsatz_eur": 459179.01
+ },
+ {
+  "period": "2025-11",
+  "produkt": "Frozen",
+  "menge": 90499,
+  "preis_eur": 5.51,
+  "umsatz_eur": 498649.49,
+  "wareneinsatz_eur": 408150.49
+ },
+ {
+  "period": "2025-12",
+  "produkt": "Fresh Produce",
+  "menge": 151112,
+  "preis_eur": 4.27,
+  "umsatz_eur": 645248.24,
+  "wareneinsatz_eur": 530403.12
+ },
+ {
+  "period": "2025-12",
+  "produkt": "Dry Goods",
+  "menge": 207834,
+  "preis_eur": 2.64,
+  "umsatz_eur": 548681.76,
+  "wareneinsatz_eur": 434373.06
+ },
+ {
+  "period": "2025-12",
+  "produkt": "Beverages",
+  "menge": 303285,
+  "preis_eur": 1.97,
+  "umsatz_eur": 597471.45,
+  "wareneinsatz_eur": 473124.6
+ },
+ {
+  "period": "2025-12",
+  "produkt": "Frozen",
+  "menge": 92555,
+  "preis_eur": 5.49,
+  "umsatz_eur": 508126.95,
+  "wareneinsatz_eur": 425753.0
+ },
+ {
+  "period": "2026-01",
+  "produkt": "Fresh Produce",
+  "menge": 153372,
+  "preis_eur": 4.34,
+  "umsatz_eur": 665634.48,
+  "wareneinsatz_eur": 529133.4
+ },
+ {
+  "period": "2026-01",
+  "produkt": "Dry Goods",
+  "menge": 212157,
+  "preis_eur": 2.67,
+  "umsatz_eur": 566459.19,
+  "wareneinsatz_eur": 443408.13
+ },
+ {
+  "period": "2026-01",
+  "produkt": "Beverages",
+  "menge": 282470,
+  "preis_eur": 1.91,
+  "umsatz_eur": 539517.7,
+  "wareneinsatz_eur": 432179.1
+ },
+ {
+  "period": "2026-01",
+  "produkt": "Frozen",
+  "menge": 85416,
+  "preis_eur": 5.49,
+  "umsatz_eur": 468933.84,
+  "wareneinsatz_eur": 393767.76
+ },
+ {
+  "period": "2026-02",
+  "produkt": "Fresh Produce",
+  "menge": 160067,
+  "preis_eur": 4.25,
+  "umsatz_eur": 680284.75,
+  "wareneinsatz_eur": 549029.81
+ },
+ {
+  "period": "2026-02",
+  "produkt": "Dry Goods",
+  "menge": 220123,
+  "preis_eur": 2.65,
+  "umsatz_eur": 583325.95,
+  "wareneinsatz_eur": 468861.99
+ },
+ {
+  "period": "2026-02",
+  "produkt": "Beverages",
+  "menge": 306324,
+  "preis_eur": 1.92,
+  "umsatz_eur": 588142.08,
+  "wareneinsatz_eur": 474802.2
+ },
+ {
+  "period": "2026-02",
+  "produkt": "Frozen",
+  "menge": 93240,
+  "preis_eur": 5.48,
+  "umsatz_eur": 510955.2,
+  "wareneinsatz_eur": 422377.2
+ },
+ {
+  "period": "2026-03",
+  "produkt": "Fresh Produce",
+  "menge": 168277,
+  "preis_eur": 4.31,
+  "umsatz_eur": 725273.87,
+  "wareneinsatz_eur": 573824.57
+ },
+ {
+  "period": "2026-03",
+  "produkt": "Dry Goods",
+  "menge": 233137,
+  "preis_eur": 2.65,
+  "umsatz_eur": 617813.05,
+  "wareneinsatz_eur": 487256.33
+ },
+ {
+  "period": "2026-03",
+  "produkt": "Beverages",
+  "menge": 318730,
+  "preis_eur": 1.92,
+  "umsatz_eur": 611961.6,
+  "wareneinsatz_eur": 509968.0
+ },
+ {
+  "period": "2026-03",
+  "produkt": "Frozen",
+  "menge": 94617,
+  "preis_eur": 5.5,
+  "umsatz_eur": 520393.5,
+  "wareneinsatz_eur": 434292.03
+ },
+ {
+  "period": "2026-04",
+  "produkt": "Fresh Produce",
+  "menge": 179853,
+  "preis_eur": 4.36,
+  "umsatz_eur": 784159.08,
+  "wareneinsatz_eur": 618694.32
+ },
+ {
+  "period": "2026-04",
+  "produkt": "Dry Goods",
+  "menge": 244524,
+  "preis_eur": 2.68,
+  "umsatz_eur": 655324.32,
+  "wareneinsatz_eur": 520836.12
+ },
+ {
+  "period": "2026-04",
+  "produkt": "Beverages",
+  "menge": 308444,
+  "preis_eur": 1.94,
+  "umsatz_eur": 598381.36,
+  "wareneinsatz_eur": 468834.88
+ },
+ {
+  "period": "2026-04",
+  "produkt": "Frozen",
+  "menge": 94355,
+  "preis_eur": 5.6,
+  "umsatz_eur": 528388.0,
+  "wareneinsatz_eur": 432145.9
+ },
+ {
+  "period": "2026-05",
+  "produkt": "Fresh Produce",
+  "menge": 176298,
+  "preis_eur": 4.26,
+  "umsatz_eur": 751029.48,
+  "wareneinsatz_eur": 599413.2
+ },
+ {
+  "period": "2026-05",
+  "produkt": "Dry Goods",
+  "menge": 237735,
+  "preis_eur": 2.63,
+  "umsatz_eur": 625243.05,
+  "wareneinsatz_eur": 494488.8
+ },
+ {
+  "period": "2026-05",
+  "produkt": "Beverages",
+  "menge": 341210,
+  "preis_eur": 1.98,
+  "umsatz_eur": 675595.8,
+  "wareneinsatz_eur": 528875.5
+ },
+ {
+  "period": "2026-05",
+  "produkt": "Frozen",
+  "menge": 101574,
+  "preis_eur": 5.46,
+  "umsatz_eur": 554594.04,
+  "wareneinsatz_eur": 466224.66
+ },
+ {
+  "period": "2026-06",
+  "produkt": "Fresh Produce",
+  "menge": 170973,
+  "preis_eur": 4.35,
+  "umsatz_eur": 743732.55,
+  "wareneinsatz_eur": 588147.12
+ },
+ {
+  "period": "2026-06",
+  "produkt": "Dry Goods",
+  "menge": 235892,
+  "preis_eur": 2.68,
+  "umsatz_eur": 632190.56,
+  "wareneinsatz_eur": 511885.64
+ },
+ {
+  "period": "2026-06",
+  "produkt": "Beverages",
+  "menge": 334524,
+  "preis_eur": 1.95,
+  "umsatz_eur": 652321.8,
+  "wareneinsatz_eur": 521857.44
+ },
+ {
+  "period": "2026-06",
+  "produkt": "Frozen",
+  "menge": 100716,
+  "preis_eur": 5.61,
+  "umsatz_eur": 565016.76,
+  "wareneinsatz_eur": 468329.4
+ },
+ {
+  "period": "2026-07",
+  "produkt": "Fresh Produce",
+  "menge": 166315,
+  "preis_eur": 4.37,
+  "umsatz_eur": 726796.55,
+  "wareneinsatz_eur": 572123.6
+ },
+ {
+  "period": "2026-07",
+  "produkt": "Dry Goods",
+  "menge": 256357,
+  "preis_eur": 2.68,
+  "umsatz_eur": 687036.76,
+  "wareneinsatz_eur": 553731.12
+ },
+ {
+  "period": "2026-07",
+  "produkt": "Beverages",
+  "menge": 327776,
+  "preis_eur": 1.93,
+  "umsatz_eur": 632607.68,
+  "wareneinsatz_eur": 514608.32
+ },
+ {
+  "period": "2026-07",
+  "produkt": "Frozen",
+  "menge": 102767,
+  "preis_eur": 5.59,
+  "umsatz_eur": 574467.53,
+  "wareneinsatz_eur": 476838.88
+ },
+ {
+  "period": "2026-08",
+  "produkt": "Fresh Produce",
+  "menge": 175551,
+  "preis_eur": 4.35,
+  "umsatz_eur": 763646.85,
+  "wareneinsatz_eur": 602139.93
+ },
+ {
+  "period": "2026-08",
+  "produkt": "Dry Goods",
+  "menge": 238716,
+  "preis_eur": 2.63,
+  "umsatz_eur": 627823.08,
+  "wareneinsatz_eur": 513239.4
+ },
+ {
+  "period": "2026-08",
+  "produkt": "Beverages",
+  "menge": 323875,
+  "preis_eur": 1.96,
+  "umsatz_eur": 634795.0,
+  "wareneinsatz_eur": 514961.25
+ },
+ {
+  "period": "2026-08",
+  "produkt": "Frozen",
+  "menge": 98263,
+  "preis_eur": 5.39,
+  "umsatz_eur": 529637.57,
+  "wareneinsatz_eur": 459870.84
+ },
+ {
+  "period": "2026-09",
+  "produkt": "Fresh Produce",
+  "menge": 170568,
+  "preis_eur": 4.36,
+  "umsatz_eur": 743676.48,
+  "wareneinsatz_eur": 586753.92
+ },
+ {
+  "period": "2026-09",
+  "produkt": "Dry Goods",
+  "menge": 239263,
+  "preis_eur": 2.72,
+  "umsatz_eur": 650795.36,
+  "wareneinsatz_eur": 507237.56
+ },
+ {
+  "period": "2026-09",
+  "produkt": "Beverages",
+  "menge": 330116,
+  "preis_eur": 1.94,
+  "umsatz_eur": 640425.04,
+  "wareneinsatz_eur": 514980.96
+ },
+ {
+  "period": "2026-09",
+  "produkt": "Frozen",
+  "menge": 95509,
+  "preis_eur": 5.68,
+  "umsatz_eur": 542491.12,
+  "wareneinsatz_eur": 433610.86
+ }
+]
